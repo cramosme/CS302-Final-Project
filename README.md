@@ -15,18 +15,5 @@ Team Meetings (Date & Time, Who Was Present, What was Discussed, What was Decide
       09/25/24 - 3:00 pm to 5:30 pm (2.5hrs)
          - Watched Unity 3D game tutorials to get a basis on how to create a 3D game. 
 
-   Braeden Watkins:
-      Total Time: 5 hours and 10 minutes (excluding lab time)
-      09/23/24 - 10:10am - 11:30am
-         - researched puzzle games/downloaded Unity and set up software
-      09/23/24 - 12:45 pm - 1:20 pm
-         - began sketching/creating initial level 1 puzzle design for two-player implementation
-      09/29/24 - 11:45am - 2:00 pm
-         - watched a Unity Tutorial for beginners and started to play around with the software (specifically started playing around with scripts)
-         - finished sketching initial puzzle 1 idea (changed into a solo version based upon proposal feedback from Dr. Emrich)
-      09/29/24 - 2:20 pm to 3:20 pm
-         - Worked with Chris to add environment assets to the game.
-         - Wrote a script to create a moving door
-
    Kevin Canas:
       Total Time:
