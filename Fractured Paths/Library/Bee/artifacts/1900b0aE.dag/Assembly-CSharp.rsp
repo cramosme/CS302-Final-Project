@@ -357,6 +357,7 @@
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/ScreenshotMaker.cs"
 "Assets/MovingTable.cs"
 "Assets/SlidingDoor.cs"
+"Assets/slidingFloor.cs"
 -langversion:9.0
 /deterministic
 /optimize+
