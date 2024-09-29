@@ -1,0 +1,28 @@
+Report of How This Challenge Went (Summary):
+  - I actually feel like it was quite productive. We have a good direction for where we want our project to head/end up and I am beginning
+    to learn Unity. Unity feels rather complicated but it actually looks like it will be a lot of fun to learn how to use. Overall, we have developed a puzzle idea
+    and began to create an environment so I am happy with where we are.
+
+Link To Repository:
+  - git@github.com:cramosme/CS302-Final-Project.git
+Individual Task:
+  - I specifically created the file called SlidingDoor.cs under Fractured Paths-Assets
+
+Time Log:
+  Total Time: 5 hours and 10 minutes (excluding lab time)
+    09/23/24 - 10:10am - 11:30am
+       - researched puzzle games/downloaded Unity and set up software
+    09/23/24 - 12:45 pm - 1:20 pm
+       - began sketching/creating initial level 1 puzzle design for two-player implementation
+    09/29/24 - 11:45am - 2:00 pm
+       - watched a Unity Tutorial for beginners and started to play around with the software (specifically started playing around with scripts)
+       - finished sketching initial puzzle 1 idea (changed into a solo version based upon proposal feedback from Dr. Emrich)
+    09/29/24 - 2:20 pm to 3:20 pm
+       - Worked with Chris to add environment assets to the game.
+       - Wrote a script to create a moving door
+
+Rubric (40 points):
+  - We have a functioning puzzle (10 points)
+  - Spent a minimum of 25 individual hours on the project (10 points)
+  - We have a character that can move and interact wtih objects (10 points)
+  - We have created an environment that looks halfway decent (10 points)
