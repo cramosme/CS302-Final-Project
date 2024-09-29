@@ -1,0 +1,21 @@
+Time Log (Time spent on the project):
+  Total Time: 4 hours and 10 minutes
+    09/23/24 - 12:30 pm to 1:30 pm ( 1hr )
+       - Spent time creating the git repository, syncing with Unity, and downloading all necessary Unity files to have a base to work on.
+    09/29/24 - 2:20 pm to 3:20 pm ( 1hr )
+       - Worked with Braeden to add environment assets to the game.
+    09/29/24 - 3:50 pm to pm ()
+       - Watched a Unity Tutorial for Beginners to get a basic understanding of the game engine.
+       - Experimented with scripts and wrote a simple sliding floor algorithm that reveals hidden stairs. (slidingFloor.cs)
+
+Rubric:
+  10 - Valid movement of character
+  10 - Interactable work as intended 
+  10 - Have at least 3 puzzles
+  10 - A functioning puzzle to environment connection
+
+  Report:
+    This challenge went well. My team and I were able to brainstorm about the game and made decent progress with our idea. We have a list of potential puzzles and have even started rough sketches of some of the assets of the game. We are
+    very excited to be using Unity and are excited to make a fully functional game, even though we've seen how challenging it might be when experimenting with scripts.
+
+  Link to the repository: https://github.com/cramosme/CS302-Final-Project
