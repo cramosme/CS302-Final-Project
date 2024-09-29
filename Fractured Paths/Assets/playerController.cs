@@ -1,3 +1,6 @@
+// Written by Ahmed Ghazi
+// Citing Sources for camera and player code: https://www.youtube.com/watch?v=c-R8sB2zDLQ
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
