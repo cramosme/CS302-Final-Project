@@ -12,6 +12,7 @@ Team Meetings (Date & Time, Who Was Present, What was Discussed, What was Decide
 
 
 Time Log (Time spent on the project):
+
    Chris Ramos:
       Total Time: 4 hours and 10 minutes
       09/23/24 - 12:30pm to 1:30pm ( 1hr )
