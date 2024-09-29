@@ -15,7 +15,7 @@ Time Log (Time spent on the project):
    Chris Ramos:
       Total Time: 4 hours and 10 minutes
       09/23/24 - 12:30pm to 1:30pm ( 1hr )
-         - Spent the time creating the git repository and syncing with unity, as well as downloading all necessary unity files to have a base to             work on.
+         - Spent the time creating the git repository and syncing with unity, as well as downloading all necessary unity files to have a base to work on.
 
    Ahmed Ghazi:
       Total Time: 5 hours and 40 minutes
@@ -23,7 +23,14 @@ Time Log (Time spent on the project):
          - watched unity 3d game tutorials to get a basis on how to create a 3d game. 
 
    Braeden Watkins:
-      Total Time:
+      Total Time: 4 hours and 10 minutes (excluding lab time)
+      09/23/24 - 10:10am - 11:30am
+         - researched puzzle games/downloaded Unity and set up software
+      09/23/24 - 12:45pm - 1:20pm
+         - began sketching/creating initial level 1 puzzle design for two player implementation
+      09/29/24 - 11:45am - 2:00 pm
+         - watched a Unity Tutorial for beginners and started to play around with the software (specifically started playing around with scripts)
+         - finished sketching initial puzzle 1 idea (changed into a solo version based upon proposal feedback from Dr. Emrich)
 
    Kevin Canas:
       Total Time:
