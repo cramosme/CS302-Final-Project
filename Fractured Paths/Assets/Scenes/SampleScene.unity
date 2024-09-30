@@ -159,6 +159,7 @@ MonoBehaviour:
   head: {fileID: 61864253}
   camera: {fileID: 1029286636}
   speed: 2.61
+  jumpSpeed: 5
 --- !u!54 &2286903
 Rigidbody:
   m_ObjectHideFlags: 0

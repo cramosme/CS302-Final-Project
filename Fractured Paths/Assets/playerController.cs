@@ -14,6 +14,13 @@ public class playerController : MonoBehaviour
 
     [Header("Config")]
     public float speed;
+    public float jumpSpeed;
+
+    [Header("Runtime")]
+    Vector3 newVelocity;
+    bool isGrounded;
+    bool isJumping;
+
 
     // Start is called before the first frame update
     void Start()
@@ -28,14 +35,28 @@ public class playerController : MonoBehaviour
     {
         //enables horizontal rotation by taking mouse x input as rotation input
         transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * 2f);
+        newVelocity = Vector3.up * rigidBody.velocity.y;
+        newVelocity.x = Input.GetAxis("Horizontal") * speed;
+        newVelocity.z = Input.GetAxis("Vertical") * speed;
+    
+        if( isGrounded){
+            if(Input.GetKeyDown(KeyCode.Space) && !isJumping){
+                newVelocity.y = jumpSpeed;
+                isJumping = true;
+            }
+        }
+        rigidBody.velocity = transform.TransformDirection(newVelocity);
     }
 
     void FixedUpdate()
     {
-        Vector3 newVelocity = Vector3.up * rigidBody.velocity.y;
-        newVelocity.x = Input.GetAxis("Horizontal") * speed;
-        newVelocity.z = Input.GetAxis("Vertical") * speed;
-        rigidBody.velocity = transform.TransformDirection(newVelocity);
+        // newVelocity = Vector3.up * rigidBody.velocity.y;
+        // newVelocity.x = Input.GetAxis("Horizontal") * speed;
+        // newVelocity.z = Input.GetAxis("Vertical") * speed;
+
+        if(Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 1f))
+            isGrounded = true;
+        else isGrounded = false;
     }
 
     void LateUpdate()
@@ -61,5 +82,16 @@ public class playerController : MonoBehaviour
 
     return angle;
     }
+
+    void OnCollisionStay(Collision col){
+        isGrounded = true;
+        isJumping = false;
+    }
+
+    void OnCollisionExit(Collision col){
+        isGrounded = false;
+        isJumping = true;
+    }
+
 }
 
