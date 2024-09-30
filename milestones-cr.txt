@@ -7,6 +7,8 @@ Time Log (Time spent on the project):
     09/29/24 - 3:50 pm to pm 4:15 pm ( 25 min )
        - Watched a Unity Tutorial for Beginners to get a basic understanding of the game engine.
        - Experimented with scripts and wrote a simple sliding floor algorithm that reveals hidden stairs. (slidingFloor.cs)
+    09/30/24 - 9:10 am to 9:45 am ( 35 min )
+       - Added code for the character to be able to jump
 
 Rubric:
   10 - Valid movement of character
