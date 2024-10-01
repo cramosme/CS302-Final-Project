@@ -21,6 +21,9 @@ public class playerController : MonoBehaviour
     bool isGrounded;
     bool isJumping;
 
+    [Header("Audio")]
+    public AudioSource audioWalk;
+
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +49,12 @@ public class playerController : MonoBehaviour
             }
         }
         rigidBody.velocity = transform.TransformDirection(newVelocity);
+
+        bool isMovingOnGround = ((Input.GetAxis("Vertical") != 0f || Input.GetAxis("Horizontal") != 0f) && isGrounded);
+
+        //Audio
+        audioWalk.enabled = isMovingOnGround;
+        audioWalk.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.75f : 1f;
     }
 
     void FixedUpdate()
