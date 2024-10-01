@@ -1,0 +1,23 @@
+Report of How This Challenge Went (Summary):
+  - Challenge went fantastic, i'm enjoying researching and implementing different aspects of the game. The set up itself was the most difficult portion, the actual coding portion 
+    went very smoothly as there are hundreds of online resources and tutorials. 
+
+Link To Repository:
+  - git@github.com:cramosme/CS302-Final-Project.git
+Individual Task:
+  - I added the sound effects for walking and sprinting 
+
+Time Log:
+  Total Time:  4 hours and 5 minutes (excluding lab time)
+    09/23/24 - 10:00am - 11:30am
+       - researched puzzle games/downloaded Unity and set up software
+    09/23/24 - 12:45 pm - 1:20 pm
+       - worked with group creating 1 puzzle design for two-player implementation
+    09/30/24 - 9:30 pm to 11:30 pm
+       - watched tutorials on how to implement sound
+       - added walking and sprinting audio to player
+Rubric (40 points):
+  - We have a functioning puzzle (10 points)
+  - Spent a minimum of 25 individual hours on the project (10 points)
+  - We have a character that can move and interact wtih objects (10 points)
+  - We have created an environment that looks halfway decent (10 points)
