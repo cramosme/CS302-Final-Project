@@ -16,8 +16,8 @@ Time Log:
     09/30/24 - 9:30 pm to 11:30 pm
        - watched tutorials on how to implement sound
        - added walking and sprinting audio to player
-Rubric (40 points):
-  - We have a functioning puzzle (10 points)
+Rubric/Plan (40 points):
+  - Finish adding player movement (10 points)
   - Spent a minimum of 25 individual hours on the project (10 points)
-  - We have a character that can move and interact wtih objects (10 points)
-  - We have created an environment that looks halfway decent (10 points)
+  - Implement some sort of background noise/music (10 points)
+  - Add sound effects for all player actions (10 points)
