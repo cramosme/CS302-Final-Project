@@ -9,6 +9,8 @@ Time Log (Time spent on the project):
        - Experimented with scripts and wrote a simple sliding floor algorithm that reveals hidden stairs. (slidingFloor.cs)
     09/30/24 - 9:10 am to 9:45 am ( 35 min )
        - Added code for the character to be able to jump
+    10/27/24 - 1:30 pm to 4:00 pm ( 2 and a half hours )
+       - Continued learning how to use Unity (Pathway program)
 
 Rubric:
   10 - Valid movement of character
