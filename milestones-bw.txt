@@ -20,6 +20,12 @@ Time Log:
     09/29/24 - 2:20 pm to 3:20 pm
        - Worked with Chris to add environment assets to the game.
        - Wrote a script to create a moving door
+    10/28/24 - 10:00 am to 11:30 am
+       - Worked with Chris on researching how to create a environment in Unity
+       - Worked with Chris to add a reticle to our game that will be used
+         to interact with objects later on
+    10/28/24 - 6:30 pm to 7:30 pm
+       - Began researching how to use Blender (will be used to create simple assets such as a button)
 
 Rubric (40 points):
   - We have a functioning puzzle (10 points)
