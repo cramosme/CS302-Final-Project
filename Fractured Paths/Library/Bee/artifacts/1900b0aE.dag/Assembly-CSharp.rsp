@@ -355,6 +355,8 @@
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/MouseCamLook.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/PlayerMovement.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/ScreenshotMaker.cs"
+"Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
+"Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Scripts/AudioMenu.cs"
 "Assets/Scripts/GraphicsMenu.cs"
 "Assets/Scripts/KeyBindMenu.cs"
