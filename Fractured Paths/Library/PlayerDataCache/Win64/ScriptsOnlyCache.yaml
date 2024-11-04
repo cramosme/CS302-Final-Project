@@ -79,22 +79,30 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1510}
+      Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 1576}
+      Script: {instanceID: 2840}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 5376}
     - Class: 114
-      Script: {instanceID: 5530}
+      Script: {instanceID: 5600}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
+      Script: {instanceID: 0}
+    - Class: 154
+      Script: {instanceID: 0}
+    - Class: 156
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
       Script: {instanceID: 0}
+    - Class: 205
+      Script: {instanceID: 0}
     - Class: 213
+      Script: {instanceID: 0}
+    - Class: 218
       Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
@@ -102,7 +110,9 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 224
       Script: {instanceID: 0}
-    Assets/Scenes/SampleScene.unity:
+    - Class: 1953259897
+      Script: {instanceID: 0}
+    Assets/Scenes/MainMenuScene.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -124,29 +134,29 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 598}
-    - Class: 114
-      Script: {instanceID: 600}
-    - Class: 114
-      Script: {instanceID: 602}
-    - Class: 114
-      Script: {instanceID: 624}
-    - Class: 114
       Script: {instanceID: 626}
     - Class: 114
-      Script: {instanceID: 2574}
+      Script: {instanceID: 628}
     - Class: 114
-      Script: {instanceID: 5994}
+      Script: {instanceID: 630}
     - Class: 114
-      Script: {instanceID: 25886}
+      Script: {instanceID: 652}
     - Class: 114
-      Script: {instanceID: 31390}
+      Script: {instanceID: 654}
     - Class: 114
-      Script: {instanceID: 32196}
+      Script: {instanceID: 2638}
     - Class: 114
-      Script: {instanceID: 32204}
+      Script: {instanceID: 4804}
     - Class: 114
-      Script: {instanceID: 32208}
+      Script: {instanceID: 5232}
+    - Class: 114
+      Script: {instanceID: 5808}
+    - Class: 114
+      Script: {instanceID: 6066}
+    - Class: 114
+      Script: {instanceID: 7124}
+    - Class: 114
+      Script: {instanceID: 7328}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -156,12 +166,6 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 5aadaab859337613db832cc213ac2664
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: playerController
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -318,6 +322,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: dc5d783d9f2ec6a6765cc354837564ff
+    assemblyName: Assembly-CSharp
+    namespaceName: Polytope
+    className: PT_Create_Prefab
   - hash:
       serializedVersion: 2
       Hash: 3b5263a98bcc71d9a9d1d78a31b34ced
@@ -614,6 +624,12 @@ ScriptsOnlyBuild:
     className: UnityOnEndDragMessageListener
   - hash:
       serializedVersion: 2
+      Hash: b5be405421c830191bcc19bdf0b302d3
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: GraphicsMenu
+  - hash:
+      serializedVersion: 2
       Hash: db9b308769d19e1f9e161df0392c23ca
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -698,6 +714,12 @@ ScriptsOnlyBuild:
     className: PanelEventHandler
   - hash:
       serializedVersion: 2
+      Hash: e075895ae625979516f55e9baaa719e0
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MainMenu
+  - hash:
+      serializedVersion: 2
       Hash: 9dd54ce33440072d6692a67e0c384ad1
     assemblyName: Unity.Timeline
     namespaceName: UnityEngine.Timeline
@@ -722,10 +744,22 @@ ScriptsOnlyBuild:
     className: MouseCamLook
   - hash:
       serializedVersion: 2
+      Hash: 5aadaab859337613db832cc213ac2664
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: playerController
+  - hash:
+      serializedVersion: 2
       Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
     className: StateGraphAsset
+  - hash:
+      serializedVersion: 2
+      Hash: fe0b2e05e2eca45b8df9c2716c3a5f45
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MouseLook
   - hash:
       serializedVersion: 2
       Hash: 540882762544409cc4530e60db00e951
@@ -750,6 +784,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro
     namespaceName: TMPro
     className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 24913e02220354b682c70896e1178d1e
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: SettingsMenu
   - hash:
       serializedVersion: 2
       Hash: da5a949a0bbd2ff91bc51c5805c2c41f
@@ -932,10 +972,22 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
+      Hash: 4156618dba0bdec310754bacb67822e6
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: KeyBindMenu
+  - hash:
+      serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnParticleCollisionMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d9c5661ff93a3f416c8dd13180298950
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioMenu
   - hash:
       serializedVersion: 2
       Hash: 0f5a086d4d028363983ba6ca30a01397
@@ -1002,38 +1054,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: e075895ae625979516f55e9baaa719e0
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MainMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 24913e02220354b682c70896e1178d1e
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: SettingsMenu
-  - hash:
-      serializedVersion: 2
-      Hash: 4156618dba0bdec310754bacb67822e6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: KeyBindMenu
-  - hash:
-      serializedVersion: 2
-      Hash: b5be405421c830191bcc19bdf0b302d3
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: GraphicsMenu
-  - hash:
-      serializedVersion: 2
-      Hash: d9c5661ff93a3f416c8dd13180298950
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AudioMenu
   platform: 19
   scenePathNames:
-  - Assets/Scenes/SampleScene.unity
+  - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/codingApps/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
+  playerPath: C:/Git/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe

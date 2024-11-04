@@ -1,13 +1,11 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=a72dd9db33357d448ab6f6f5dd338385&amp;type=3#MainMenuStyle" />
-    <ui:VisualElement name="GameBG" style="flex-grow: 1; background-image: none; justify-content: center; align-items: center;">
-        <ui:VisualElement name="MainMenuContainer" style="flex-grow: 0; width: 800px; height: 1080px; align-self: flex-start; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; font-size: 14px; color: rgb(27, 27, 27);">
-            <ui:Label tabindex="-1" text="Fractured Paths" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuHeaderLabel" style="font-size: 70px; -unity-font-style: bold; color: rgb(251, 236, 236); -unity-text-align: middle-left; text-overflow: clip; text-shadow: 2px 2px 0 rgb(0, 0, 0);" />
-            <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; justify-content: center; align-items: center; -unity-font-style: normal;">
-                <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayButton" class="main-menu-button" style="-unity-font-style: bold;" />
-                <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsButton" class="main-menu-button" />
-                <ui:Button text="Exit Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" enable-rich-text="true" class="main-menu-button" />
-            </ui:VisualElement>
+    <ui:VisualElement name="GameBG" style="background-image: url(&quot;project://database/Assets/Fractured_Paths_Logo.png?fileID=2800000&amp;guid=4567158ef494d1b4e931c365515753bf&amp;type=3#Fractured_Paths_Logo&quot;); -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement name="MainMenuContainer" style="flex-grow: 0; width: 1920px; height: 1080px; align-self: flex-start; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; font-size: 14px; color: rgb(27, 27, 27); flex-direction: column;">
+            <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; justify-content: flex-start; align-items: center; align-self: flex-start; flex-direction: row; position: absolute; left: 400px; bottom: 0; font-size: 400px; margin-top: 10px; margin-right: 10px; margin-bottom: 10px; margin-left: 10px; color: rgb(220, 18, 18);" />
+            <ui:Button text="Play" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PlayButton" class="main-menu-button" style="-unity-font-style: bold; width: auto; height: auto; align-self: flex-start; position: absolute; left: auto; align-items: auto; bottom: 0; justify-content: flex-start; -unity-text-align: upper-left;" />
+            <ui:Button text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SettingsButton" class="main-menu-button" style="width: auto; height: auto; align-self: center; -unity-text-align: lower-left; bottom: 0; position: absolute;" />
+            <ui:Button text="Exit Game" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExitButton" enable-rich-text="true" class="main-menu-button" style="width: auto; height: auto; position: absolute; bottom: 0; align-self: flex-end; right: 1.5%;" />
         </ui:VisualElement>
     </ui:VisualElement>
 </ui:UXML>
