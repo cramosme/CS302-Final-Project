@@ -355,10 +355,12 @@
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/MouseCamLook.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/PlayerMovement.cs"
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/ScreenshotMaker.cs"
-"Assets/MovingTable.cs"
-"Assets/playerController.cs"
-"Assets/SlidingDoor.cs"
-"Assets/slidingFloor.cs"
+"Assets/Scripts/AudioMenu.cs"
+"Assets/Scripts/GraphicsMenu.cs"
+"Assets/Scripts/KeyBindMenu.cs"
+"Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/playerController.cs"
+"Assets/Scripts/SettingsMenu.cs"
 -langversion:9.0
 /deterministic
 /optimize+
