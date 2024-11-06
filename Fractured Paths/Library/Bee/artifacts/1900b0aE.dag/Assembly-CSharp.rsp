@@ -363,6 +363,7 @@
 "Assets/Scripts/GraphicsMenu.cs"
 "Assets/Scripts/KeyBindMenu.cs"
 "Assets/Scripts/MainMenu.cs"
+"Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/playerController.cs"
 "Assets/Scripts/SettingsMenu.cs"
 -langversion:9.0

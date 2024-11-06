@@ -26,10 +26,10 @@
                         "m_OldPath": "Assets/UI Toolkit/MainMenuStyle.uss"
                     }
                 ],
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/SettingsMenu.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/PauseMenu.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "938eb72c5cf39ca43a84b2237b2df0b0",
+                    "guid": "aefb12c91deb97a49a745e992ee015ed",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
@@ -38,17 +38,17 @@
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "938eb72c5cf39ca43a84b2237b2df0b0",
-                    "UxmlPath": "Assets/UI Toolkit/SettingsMenu.uxml",
+                    "UxmlGuid": "aefb12c91deb97a49a745e992ee015ed",
+                    "UxmlPath": "Assets/UI Toolkit/PauseMenu.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 1920,
                     "CanvasHeight": 1080,
                     "MatchGameView": false,
-                    "ZoomScale": 0.75,
+                    "ZoomScale": 0.44999998807907107,
                     "PanOffset": {
-                        "x": 23.0,
-                        "y": 26.0
+                        "x": 55.313507080078128,
+                        "y": 123.94137573242188
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,

@@ -6,7 +6,23 @@ public class AudioManager : MonoBehaviour
 
     public AudioClip bgm;
 
-   private void Start()
+    public static AudioManager instance;
+
+    private void Awake()
+    {
+        if( instance == null)
+        {
+            instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
+    private void Start()
    {
       musicSource.clip = bgm;
       musicSource.Play();
