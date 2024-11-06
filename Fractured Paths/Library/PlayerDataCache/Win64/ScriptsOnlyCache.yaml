@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - AudioManager
     - AudioMenu
+    - CustomSlider
     - GraphicsMenu
     - KeyBindMenu
     - MainMenu
@@ -9,6 +11,8 @@ ScriptsOnlyBuild:
     - playerController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -127,6 +131,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -146,9 +154,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2638}
     - Class: 114
+      Script: {instanceID: 2840}
+    - Class: 114
       Script: {instanceID: 4804}
     - Class: 114
       Script: {instanceID: 5232}
+    - Class: 114
+      Script: {instanceID: 5600}
     - Class: 114
       Script: {instanceID: 5808}
     - Class: 114
@@ -157,6 +169,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7124}
     - Class: 114
       Script: {instanceID: 7328}
+    - Class: 114
+      Script: {instanceID: 85944}
+    - Class: 114
+      Script: {instanceID: 91060}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -164,6 +180,16 @@ ScriptsOnlyBuild:
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
   scriptHashData:
   - hash:
@@ -1054,8 +1080,20 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ad76c48462c89fcb63ff7bb230670af5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CustomSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 2f2d01b264c1d4b0c18b595e6e601f34
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/Git/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
+  playerPath: C:/codingApps/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe

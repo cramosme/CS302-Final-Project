@@ -1,12 +1,9 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=a72dd9db33357d448ab6f6f5dd338385&amp;type=3#MainMenuStyle" />
-    <ui:VisualElement name="GameBG" style="flex-grow: 1; background-image: none; justify-content: center; align-items: center;">
-        <ui:VisualElement name="MainMenuContainer" style="flex-grow: 0; width: 800px; height: 1080px; align-self: flex-start; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; font-size: 14px; color: rgb(27, 27, 27);">
-            <ui:Label tabindex="-1" text="Fractured Paths" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuHeaderLabel" style="font-size: 70px; -unity-font-style: bold; color: rgb(251, 236, 236); -unity-text-align: middle-left; text-overflow: clip; text-shadow: 2px 2px 0 rgb(0, 0, 0);" />
+    <Style src="project://database/Assets/UI%20Toolkit/GraphicsMenuStyle.uss?fileID=7433441132597879392&amp;guid=1abcb6b36ef57284d9055da251edb7e6&amp;type=3#GraphicsMenuStyle" />
+    <ui:VisualElement name="GameBG" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/Fractured_Paths_Logo.png?fileID=2800000&amp;guid=4567158ef494d1b4e931c365515753bf&amp;type=3#Fractured_Paths_Logo&quot;); justify-content: center; align-items: center; -unity-background-scale-mode: scale-and-crop;">
+        <ui:VisualElement name="MainMenuContainer" style="flex-grow: 0; width: 1920px; height: 900px; align-self: center; padding-top: 20px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; margin-top: 5px; margin-right: 5px; margin-bottom: 5px; margin-left: 5px; font-size: 14px; color: rgb(27, 27, 27); background-color: rgba(0, 0, 0, 0.78);">
             <ui:VisualElement name="ButtonContainer" style="flex-grow: 1; justify-content: center; align-items: center; -unity-font-style: normal;">
-                <ui:Button text="Cancel" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CancelButton" class="main-menu-button" style="-unity-font-style: bold;" />
-                <ui:Button text="Apply" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ApplyButton" class="main-menu-button" />
-                <ui:Button text="Reset" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResetButton" enable-rich-text="true" class="main-menu-button" />
                 <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackButton" class="main-menu-button" style="-unity-font-style: bold;" />
             </ui:VisualElement>
         </ui:VisualElement>

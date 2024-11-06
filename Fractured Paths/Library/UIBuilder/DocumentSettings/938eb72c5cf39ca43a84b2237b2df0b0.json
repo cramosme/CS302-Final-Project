@@ -3,8 +3,8 @@
     "UxmlPath": "Assets/UI Toolkit/SettingsMenu.uxml",
     "CanvasX": 0,
     "CanvasY": 0,
-    "CanvasWidth": 1453,
-    "CanvasHeight": 962,
+    "CanvasWidth": 1920,
+    "CanvasHeight": 1080,
     "MatchGameView": false,
     "ZoomScale": 0.75,
     "PanOffset": {

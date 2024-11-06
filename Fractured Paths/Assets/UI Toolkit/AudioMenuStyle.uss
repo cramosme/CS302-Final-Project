@@ -1,0 +1,97 @@
+#MusicSlider #unity-drag-container {
+    background-color: rgb(39, 38, 34);
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    background-image: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 600px;
+    position: absolute;
+    height: 70px;
+}
+
+#MusicSlider #unity-tracker {
+    background-color: rgb(39, 38, 34);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+    align-self: auto;
+    top: 0;
+    flex-direction: row;
+    overflow: visible;
+    visibility: visible;
+    flex-shrink: 0;
+    width: 300px;
+}
+
+#MusicSlider #unity-dragger {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 10px;
+    height: 100%;
+    top: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: rgb(255, 252, 228);
+    flex-shrink: 0;
+    position: absolute;
+}
+
+.fillBar {
+    width: 2000px;
+    height: 100%;
+    background-color: rgb(255, 252, 228);
+    align-self: flex-end;
+    display: flex;
+}
+
+.newDragger {
+    position: absolute;
+    width: 20px;
+    height: 80px;
+    background-color: rgb(132, 129, 115);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    top: 0;
+    left: 0;
+}
