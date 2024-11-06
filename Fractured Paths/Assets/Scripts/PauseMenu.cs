@@ -21,7 +21,9 @@ public class PauseMenu : MonoBehaviour
 
     private void Start()
     {
-        isPaused = false;
+        isPaused = false;///////////////////////
+        //UnityEngine.Cursor.visible = true;
+        //UnityEngine.Cursor.lockState = CursorLockMode.None;
 
         VisualElement mainRoot = pauseMenuDocument.rootVisualElement;
         resumeButton = mainRoot.Q<Button>("ResumeButton");
@@ -59,6 +61,9 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
         pauseMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
         Time.timeScale = 1;
+
+        UnityEngine.Cursor.visible = false;
+
     }
 
     private void PauseGame()
@@ -66,6 +71,9 @@ public class PauseMenu : MonoBehaviour
         isPaused = true;
         pauseMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;
         Time.timeScale = 0;
+
+        UnityEngine.Cursor.visible = true;
+        UnityEngine.Cursor.lockState = CursorLockMode.None;
     }
 
     private void ShowSettingsMenu()

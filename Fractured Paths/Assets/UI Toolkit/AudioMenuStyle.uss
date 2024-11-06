@@ -95,3 +95,67 @@
     top: 0;
     left: 0;
 }
+
+#SFXSlider #unity-drag-container {
+    background-color: rgb(39, 38, 34);
+    margin-top: 25px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+    background-image: none;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    flex-shrink: 0;
+    width: 600px;
+    position: absolute;
+    height: 70px;
+}
+
+#SFXSlider #unity-tracker {
+    background-color: rgb(39, 38, 34);
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    position: relative;
+    align-self: auto;
+    top: 0;
+    flex-direction: row;
+    overflow: visible;
+    visibility: visible;
+    flex-shrink: 0;
+    width: 300px;
+}
+
+#SFXSlider #unity-dragger {
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    width: 10px;
+    height: 100%;
+    top: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background-color: rgb(255, 252, 228);
+    flex-shrink: 0;
+    position: absolute;
+}
