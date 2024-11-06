@@ -629,6 +629,7 @@ MonoBehaviour:
   keyBindMenuDocument: {fileID: 686875065}
   graphicsMenuDocument: {fileID: 729068880}
   audioMenuDocument: {fileID: 293397878}
+  isPaused: 0
 --- !u!1 &549073084
 GameObject:
   m_ObjectHideFlags: 0

@@ -11,6 +11,7 @@ public class playerController : MonoBehaviour
     public Rigidbody rigidBody;
     public Transform head;
     public Camera newcamera;
+    PauseMenu pauseMenu;
 
     [Header("Config")]
     public float speed;
@@ -28,6 +29,8 @@ public class playerController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        pauseMenu = FindObjectOfType<PauseMenu>();
+
         //makes the cursor stay in the middle of the screen so the player can rotate
         Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
@@ -36,6 +39,10 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(pauseMenu != null && pauseMenu.isPaused)
+        {
+            return;
+        }
         //enables horizontal rotation by taking mouse x input as rotation input
         transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * 2f);
         newVelocity = Vector3.up * rigidBody.velocity.y;
@@ -70,6 +77,10 @@ public class playerController : MonoBehaviour
 
     void LateUpdate()
     {
+        if (pauseMenu != null && pauseMenu.isPaused)
+        {
+            return;
+        }
         Vector3 e = head.eulerAngles;
         e.x -= Input.GetAxis("Mouse Y") * 2f;
         e.x = RestrictAngle(e.x, -85f, 85f);

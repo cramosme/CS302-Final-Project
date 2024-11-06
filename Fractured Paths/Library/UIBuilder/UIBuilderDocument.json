@@ -26,10 +26,10 @@
                         "m_OldPath": "Assets/UI Toolkit/MainMenuStyle.uss"
                     }
                 ],
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/PauseMenu.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/MainMenu.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "aefb12c91deb97a49a745e992ee015ed",
+                    "guid": "cb9de3724ac59c14f935aac2ae50fa4f",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
@@ -38,23 +38,23 @@
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "aefb12c91deb97a49a745e992ee015ed",
-                    "UxmlPath": "Assets/UI Toolkit/PauseMenu.uxml",
+                    "UxmlGuid": "cb9de3724ac59c14f935aac2ae50fa4f",
+                    "UxmlPath": "Assets/UI Toolkit/MainMenu.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 1920,
                     "CanvasHeight": 1080,
                     "MatchGameView": false,
-                    "ZoomScale": 0.44999998807907107,
+                    "ZoomScale": 0.5,
                     "PanOffset": {
-                        "x": 55.313507080078128,
-                        "y": 123.94137573242188
+                        "x": 23.0,
+                        "y": 26.0
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,
                     "CameraModeCanvasBackgroundOpacity": 1.0,
-                    "EnableCanvasBackground": false,
-                    "CanvasBackgroundMode": 0,
+                    "EnableCanvasBackground": true,
+                    "CanvasBackgroundMode": 1,
                     "CanvasBackgroundColor": {
                         "r": 0.0,
                         "g": 0.0,
@@ -62,10 +62,12 @@
                         "a": 1.0
                     },
                     "CanvasBackgroundImage": {
-                        "instanceID": 0
+                        "fileID": 2800000,
+                        "guid": "4567158ef494d1b4e931c365515753bf",
+                        "type": 3
                     },
                     "CanvasBackgroundImageScaleMode": 1,
-                    "CanvasBackgroundCameraName": ""
+                    "CanvasBackgroundCameraName": "Main Camera"
                 },
                 "m_OpenSubDocumentParentIndex": -1,
                 "m_OpenSubDocumentParentSourceTemplateAssetIndex": -1
