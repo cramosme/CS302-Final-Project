@@ -17,7 +17,7 @@ RenderSettings:
   m_Fog: 1
   m_FogColor: {r: 0.43529415, g: 0.654902, b: 0.882353, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0
+  m_FogDensity: 0.0045
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -629,6 +629,7 @@ MonoBehaviour:
   keyBindMenuDocument: {fileID: 686875065}
   graphicsMenuDocument: {fileID: 729068880}
   audioMenuDocument: {fileID: 293397878}
+  isPaused: 0
 --- !u!1 &549073084
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,11 +1056,11 @@ Terrain:
   m_Enabled: 1
   serializedVersion: 6
   m_TerrainData: {fileID: 15600000, guid: dd617050157b43344b261645ae39c930, type: 2}
-  m_TreeDistance: 5000
-  m_TreeBillboardDistance: 50
+  m_TreeDistance: 427
+  m_TreeBillboardDistance: 668
   m_TreeCrossFadeLength: 5
   m_TreeMaximumFullLODCount: 50
-  m_DetailObjectDistance: 80
+  m_DetailObjectDistance: 154
   m_DetailObjectDensity: 1
   m_HeightmapPixelError: 5
   m_SplatMapDistance: 1000
