@@ -993,6 +993,7 @@ MonoBehaviour:
   keyBindsMenuDocument: {fileID: 686875065}
   graphicsMenuDocument: {fileID: 729068880}
   audioMenuDocument: {fileID: 293397878}
+  pauseMenuDocument: {fileID: 506295069}
 --- !u!4 &1201517422
 Transform:
   m_ObjectHideFlags: 0

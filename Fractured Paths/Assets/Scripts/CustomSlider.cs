@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.Audio;
-// using UnityEngine.UI;
 
 public class CustomSlider : MonoBehaviour
 {
@@ -14,7 +13,7 @@ public class CustomSlider : MonoBehaviour
    //New Dragger
    private VisualElement newDragger;
 
-   private Slider musicSlider;
+   private Slider mySlider;
 
    private Label displayLabel;
 
@@ -26,7 +25,7 @@ public class CustomSlider : MonoBehaviour
       root = GetComponent<UIDocument>().rootVisualElement;
       slider = root.Q<Slider>("MusicSlider");
       dragger = root.Q<VisualElement>("unity-dragger");
-      musicSlider = root.Q<Slider>("MusicSlider");
+      mySlider = root.Q<Slider>("MusicSlider");
 
       displayLabel = root.Q<Label>("VolumeDisplay");
 
@@ -43,7 +42,7 @@ public class CustomSlider : MonoBehaviour
          SetMusicVolume();
       }
 
-      UpdateDisplayLabel(musicSlider.value);
+      UpdateDisplayLabel(mySlider.value);
 
    }
 
@@ -69,7 +68,7 @@ public class CustomSlider : MonoBehaviour
       int roundedValue = Mathf.RoundToInt(value.newValue);
 
       // Set the slider value to the rounded integer
-      musicSlider.value = roundedValue;
+      mySlider.value = roundedValue;
 
       UpdateDisplayLabel(roundedValue);
       CalculateDraggerPosition();
@@ -93,14 +92,14 @@ public class CustomSlider : MonoBehaviour
 
    private void SetMusicVolume()
    {
-      float volume = musicSlider.value;
+      float volume = mySlider.value;
       myMixer.SetFloat("music", volume);
       PlayerPrefs.SetFloat("musicVolume", volume);
    }
 
    private void LoadVolume()
    {
-      musicSlider.value = PlayerPrefs.GetFloat("musicVolume");
+      mySlider.value = PlayerPrefs.GetFloat("musicVolume");
       slider.RegisterCallback<ChangeEvent<float>>(SliderValueChanged);
 
    }
