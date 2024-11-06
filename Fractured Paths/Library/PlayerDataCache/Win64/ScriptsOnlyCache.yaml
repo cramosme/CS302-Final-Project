@@ -7,12 +7,11 @@ ScriptsOnlyBuild:
     - GraphicsMenu
     - KeyBindMenu
     - MainMenu
+    - PauseMenu
     - SettingsMenu
     - playerController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
-    Unity.Timeline.Editor.dll:
-    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -83,14 +82,38 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 626}
+    - Class: 114
+      Script: {instanceID: 628}
+    - Class: 114
+      Script: {instanceID: 630}
+    - Class: 114
+      Script: {instanceID: 652}
+    - Class: 114
+      Script: {instanceID: 654}
+    - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 5376}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 4808}
+    - Class: 114
+      Script: {instanceID: 5380}
+    - Class: 114
+      Script: {instanceID: 5392}
+    - Class: 114
+      Script: {instanceID: 5606}
+    - Class: 114
+      Script: {instanceID: 5814}
+    - Class: 114
+      Script: {instanceID: 7130}
+    - Class: 114
+      Script: {instanceID: 7334}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
@@ -113,6 +136,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 1953259897
       Script: {instanceID: 0}
@@ -152,27 +181,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 654}
     - Class: 114
-      Script: {instanceID: 2638}
+      Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2840}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 4804}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 5232}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 5600}
+      Script: {instanceID: 4808}
     - Class: 114
-      Script: {instanceID: 5808}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 6066}
+      Script: {instanceID: 5606}
     - Class: 114
-      Script: {instanceID: 7124}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 7328}
+      Script: {instanceID: 6072}
     - Class: 114
-      Script: {instanceID: 85944}
+      Script: {instanceID: 7130}
     - Class: 114
-      Script: {instanceID: 91060}
+      Script: {instanceID: 7334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -234,6 +263,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 2f2d01b264c1d4b0c18b595e6e601f34
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: AudioManager
   - hash:
       serializedVersion: 2
       Hash: f778e23b6ff26b8de4721be0eb1fa240
@@ -462,6 +497,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSelectMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: ad76c48462c89fcb63ff7bb230670af5
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CustomSlider
   - hash:
       serializedVersion: 2
       Hash: 5b8b7230ad968399f6726aa1269dcdcb
@@ -776,6 +817,12 @@ ScriptsOnlyBuild:
     className: playerController
   - hash:
       serializedVersion: 2
+      Hash: 3639ef1f1f529df21820a17e85e05ff8
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PauseMenu
+  - hash:
+      serializedVersion: 2
       Hash: 1ce63d97d1ca25cba2d91d5f32fd5f79
     assemblyName: Unity.VisualScripting.State
     namespaceName: Unity.VisualScripting
@@ -1080,20 +1127,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: ad76c48462c89fcb63ff7bb230670af5
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CustomSlider
-  - hash:
-      serializedVersion: 2
-      Hash: 2f2d01b264c1d4b0c18b595e6e601f34
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: AudioManager
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/codingApps/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
+  playerPath: C:/Git/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe

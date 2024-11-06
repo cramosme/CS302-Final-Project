@@ -573,6 +573,7 @@ GameObject:
   m_Component:
   - component: {fileID: 506295070}
   - component: {fileID: 506295069}
+  - component: {fileID: 506295071}
   m_Layer: 5
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -594,7 +595,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PanelSettings: {fileID: 11400000, guid: c0ab431e80f2f2842b95b1a8e4067690, type: 2}
   m_ParentUI: {fileID: 0}
-  sourceAsset: {fileID: 0}
+  sourceAsset: {fileID: 9197481963319205126, guid: aefb12c91deb97a49a745e992ee015ed, type: 3}
   m_SortingOrder: 0
 --- !u!4 &506295070
 Transform:
@@ -611,6 +612,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &506295071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506295068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7118952f0cad5844c97e08d6ce48fdc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenuDocument: {fileID: 506295069}
+  settingsMenuDocument: {fileID: 1201517420}
+  keyBindMenuDocument: {fileID: 686875065}
+  graphicsMenuDocument: {fileID: 729068880}
+  audioMenuDocument: {fileID: 293397878}
 --- !u!1 &549073084
 GameObject:
   m_ObjectHideFlags: 0
