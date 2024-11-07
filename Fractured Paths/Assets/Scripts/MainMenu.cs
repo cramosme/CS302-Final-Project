@@ -36,7 +36,7 @@ public class MainMenu : MonoBehaviour
 
    }
 
-   private void PlayGame()
+    private void PlayGame()
    {
       SceneManager.LoadScene("GameScene");
    }

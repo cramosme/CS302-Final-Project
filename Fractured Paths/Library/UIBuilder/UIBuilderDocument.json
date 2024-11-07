@@ -28,38 +28,38 @@
                     {
                         "m_StyleSheet": {
                             "fileID": 7433441132597879392,
-                            "guid": "aa79af0da0391fe419dd9a4ed7b778b2",
+                            "guid": "015abc2d97795bc428a868a118b625a5",
                             "type": 3
                         },
                         "m_BackupStyleSheet": {
                             "instanceID": 0
                         },
-                        "m_OldPath": "Assets/UI Toolkit/AudioMenuStyle.uss"
+                        "m_OldPath": "Assets/UI Toolkit/KeyBindsMenuStyle.uss"
                     }
                 ],
-                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/AudioMenu.uxml",
+                "m_OpenendVisualTreeAssetOldPath": "Assets/UI Toolkit/KeyBindsMenu.uxml",
                 "m_VisualTreeAsset": {
                     "fileID": 9197481963319205126,
-                    "guid": "0f7b56a2b8379c04ba34bdf7a7518760",
+                    "guid": "ea9e615bea442e8478d396798ea02130",
                     "type": 3
                 },
                 "m_ActiveStyleSheet": {
                     "fileID": 7433441132597879392,
-                    "guid": "aa79af0da0391fe419dd9a4ed7b778b2",
+                    "guid": "a72dd9db33357d448ab6f6f5dd338385",
                     "type": 3
                 },
                 "m_Settings": {
-                    "UxmlGuid": "0f7b56a2b8379c04ba34bdf7a7518760",
-                    "UxmlPath": "Assets/UI Toolkit/AudioMenu.uxml",
+                    "UxmlGuid": "ea9e615bea442e8478d396798ea02130",
+                    "UxmlPath": "Assets/UI Toolkit/KeyBindMenu.uxml",
                     "CanvasX": 0,
                     "CanvasY": 0,
                     "CanvasWidth": 1920,
                     "CanvasHeight": 1080,
                     "MatchGameView": false,
-                    "ZoomScale": 0.6000000238418579,
+                    "ZoomScale": 0.5,
                     "PanOffset": {
-                        "x": 93.8370361328125,
-                        "y": 154.6880340576172
+                        "x": 12.73370361328125,
+                        "y": 171.93490600585938
                     },
                     "ColorModeBackgroundOpacity": 1.0,
                     "ImageModeCanvasBackgroundOpacity": 1.0,

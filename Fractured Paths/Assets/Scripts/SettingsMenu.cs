@@ -37,7 +37,16 @@ public class SettingsMenu : MonoBehaviour
 
    }
 
-   private void ShowKeyBindingMenu()
+    private void Start()
+    {
+        Resolution[] resolutions = Screen.resolutions;
+
+        foreach (var res in resolutions)
+        {
+            Debug.Log(res.width + "x" + res.height + " : " + res.refreshRateRatio);
+        }
+    }
+    private void ShowKeyBindingMenu()
    {
       settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
       keyBindsMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;
