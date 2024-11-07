@@ -147,8 +147,7 @@
         139,
         140,
         141,
-        142,
-        143
+        142
       ],
       "OverwriteOutputs": false,
       "DebugActionIndex": 0
@@ -334,29 +333,17 @@
       "DebugActionIndex": 15
     },
     {
-      "Annotation": "CopyFiles build/Fractured Paths_Data/sharedassets1.resource",
-      "DisplayName": "Copying sharedassets1.resource",
-      "ActionType": "CopyFiles",
-      "Inputs": [
-        "Library/PlayerDataCache/Win64/Data/sharedassets1.resource"
-      ],
-      "Outputs": [
-        "build/Fractured Paths_Data/sharedassets1.resource"
-      ],
-      "DebugActionIndex": 16
-    },
-    {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info",
       "DisplayName": "Writing boot.config_tyr4.info",
       "ActionType": "WriteFile",
       "PayloadOffset": 83,
-      "PayloadLength": 15806,
+      "PayloadLength": 15746,
       "PayloadDebugContentSnippet": "{\"System.Object\":null,\"Bee.Tun",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/csharpactions/boot.config_tyr4.info"
       ],
-      "DebugActionIndex": 17
+      "DebugActionIndex": 16
     },
     {
       "Annotation": "AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config",
@@ -380,7 +367,6 @@
         "Library/PlayerDataCache/Win64/Data/sharedassets0.resource",
         "Library/PlayerDataCache/Win64/Data/sharedassets1.assets",
         "Library/PlayerDataCache/Win64/Data/sharedassets1.assets.resS",
-        "Library/PlayerDataCache/Win64/Data/sharedassets1.resource",
         "C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AIModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.ARModule.dll",
         "C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/mono/Managed/UnityEngine.AccessibilityModule.dll",
@@ -519,12 +505,12 @@
         "Library/Bee/artifacts/WinPlayerBuildProgram/boot.config"
       ],
       "ToBuildDependencies": [
-        17
+        16
       ],
       "OverwriteOutputs": false,
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 18
+      "DebugActionIndex": 17
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/boot.config",
@@ -537,9 +523,9 @@
         "build/Fractured Paths_Data/boot.config"
       ],
       "ToBuildDependencies": [
-        18
+        17
       ],
-      "DebugActionIndex": 19
+      "DebugActionIndex": 18
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.AIModule.dll",
@@ -551,7 +537,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.AIModule.dll"
       ],
-      "DebugActionIndex": 20
+      "DebugActionIndex": 19
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ARModule.dll",
@@ -563,7 +549,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ARModule.dll"
       ],
-      "DebugActionIndex": 21
+      "DebugActionIndex": 20
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.AccessibilityModule.dll",
@@ -575,7 +561,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.AccessibilityModule.dll"
       ],
-      "DebugActionIndex": 22
+      "DebugActionIndex": 21
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.AndroidJNIModule.dll",
@@ -587,7 +573,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.AndroidJNIModule.dll"
       ],
-      "DebugActionIndex": 23
+      "DebugActionIndex": 22
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.AnimationModule.dll",
@@ -599,7 +585,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.AnimationModule.dll"
       ],
-      "DebugActionIndex": 24
+      "DebugActionIndex": 23
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.AssetBundleModule.dll",
@@ -611,7 +597,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.AssetBundleModule.dll"
       ],
-      "DebugActionIndex": 25
+      "DebugActionIndex": 24
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.AudioModule.dll",
@@ -623,7 +609,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.AudioModule.dll"
       ],
-      "DebugActionIndex": 26
+      "DebugActionIndex": 25
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ClothModule.dll",
@@ -635,7 +621,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ClothModule.dll"
       ],
-      "DebugActionIndex": 27
+      "DebugActionIndex": 26
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ClusterInputModule.dll",
@@ -647,7 +633,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ClusterInputModule.dll"
       ],
-      "DebugActionIndex": 28
+      "DebugActionIndex": 27
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ClusterRendererModule.dll",
@@ -659,7 +645,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ClusterRendererModule.dll"
       ],
-      "DebugActionIndex": 29
+      "DebugActionIndex": 28
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ContentLoadModule.dll",
@@ -671,7 +657,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ContentLoadModule.dll"
       ],
-      "DebugActionIndex": 30
+      "DebugActionIndex": 29
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.CoreModule.dll",
@@ -683,7 +669,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.CoreModule.dll"
       ],
-      "DebugActionIndex": 31
+      "DebugActionIndex": 30
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.CrashReportingModule.dll",
@@ -695,7 +681,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.CrashReportingModule.dll"
       ],
-      "DebugActionIndex": 32
+      "DebugActionIndex": 31
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.DSPGraphModule.dll",
@@ -707,7 +693,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.DSPGraphModule.dll"
       ],
-      "DebugActionIndex": 33
+      "DebugActionIndex": 32
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.DirectorModule.dll",
@@ -719,7 +705,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.DirectorModule.dll"
       ],
-      "DebugActionIndex": 34
+      "DebugActionIndex": 33
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.GIModule.dll",
@@ -731,7 +717,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.GIModule.dll"
       ],
-      "DebugActionIndex": 35
+      "DebugActionIndex": 34
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.GameCenterModule.dll",
@@ -743,7 +729,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.GameCenterModule.dll"
       ],
-      "DebugActionIndex": 36
+      "DebugActionIndex": 35
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.GridModule.dll",
@@ -755,7 +741,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.GridModule.dll"
       ],
-      "DebugActionIndex": 37
+      "DebugActionIndex": 36
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.HotReloadModule.dll",
@@ -767,7 +753,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.HotReloadModule.dll"
       ],
-      "DebugActionIndex": 38
+      "DebugActionIndex": 37
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.IMGUIModule.dll",
@@ -779,7 +765,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.IMGUIModule.dll"
       ],
-      "DebugActionIndex": 39
+      "DebugActionIndex": 38
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ImageConversionModule.dll",
@@ -791,7 +777,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ImageConversionModule.dll"
       ],
-      "DebugActionIndex": 40
+      "DebugActionIndex": 39
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.InputLegacyModule.dll",
@@ -803,7 +789,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.InputLegacyModule.dll"
       ],
-      "DebugActionIndex": 41
+      "DebugActionIndex": 40
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.InputModule.dll",
@@ -815,7 +801,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.InputModule.dll"
       ],
-      "DebugActionIndex": 42
+      "DebugActionIndex": 41
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.JSONSerializeModule.dll",
@@ -827,7 +813,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.JSONSerializeModule.dll"
       ],
-      "DebugActionIndex": 43
+      "DebugActionIndex": 42
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.LocalizationModule.dll",
@@ -839,7 +825,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.LocalizationModule.dll"
       ],
-      "DebugActionIndex": 44
+      "DebugActionIndex": 43
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.NVIDIAModule.dll",
@@ -851,7 +837,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.NVIDIAModule.dll"
       ],
-      "DebugActionIndex": 45
+      "DebugActionIndex": 44
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ParticleSystemModule.dll",
@@ -863,7 +849,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ParticleSystemModule.dll"
       ],
-      "DebugActionIndex": 46
+      "DebugActionIndex": 45
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
@@ -875,7 +861,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.PerformanceReportingModule.dll"
       ],
-      "DebugActionIndex": 47
+      "DebugActionIndex": 46
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.Physics2DModule.dll",
@@ -887,7 +873,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.Physics2DModule.dll"
       ],
-      "DebugActionIndex": 48
+      "DebugActionIndex": 47
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.PhysicsModule.dll",
@@ -899,7 +885,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.PhysicsModule.dll"
       ],
-      "DebugActionIndex": 49
+      "DebugActionIndex": 48
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ProfilerModule.dll",
@@ -911,7 +897,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ProfilerModule.dll"
       ],
-      "DebugActionIndex": 50
+      "DebugActionIndex": 49
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.PropertiesModule.dll",
@@ -923,7 +909,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.PropertiesModule.dll"
       ],
-      "DebugActionIndex": 51
+      "DebugActionIndex": 50
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
@@ -935,7 +921,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll"
       ],
-      "DebugActionIndex": 52
+      "DebugActionIndex": 51
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
@@ -947,7 +933,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.ScreenCaptureModule.dll"
       ],
-      "DebugActionIndex": 53
+      "DebugActionIndex": 52
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.SharedInternalsModule.dll",
@@ -959,7 +945,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.SharedInternalsModule.dll"
       ],
-      "DebugActionIndex": 54
+      "DebugActionIndex": 53
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.SpriteMaskModule.dll",
@@ -971,7 +957,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.SpriteMaskModule.dll"
       ],
-      "DebugActionIndex": 55
+      "DebugActionIndex": 54
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.SpriteShapeModule.dll",
@@ -983,7 +969,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.SpriteShapeModule.dll"
       ],
-      "DebugActionIndex": 56
+      "DebugActionIndex": 55
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.StreamingModule.dll",
@@ -995,7 +981,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.StreamingModule.dll"
       ],
-      "DebugActionIndex": 57
+      "DebugActionIndex": 56
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.SubstanceModule.dll",
@@ -1007,7 +993,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.SubstanceModule.dll"
       ],
-      "DebugActionIndex": 58
+      "DebugActionIndex": 57
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.SubsystemsModule.dll",
@@ -1019,7 +1005,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.SubsystemsModule.dll"
       ],
-      "DebugActionIndex": 59
+      "DebugActionIndex": 58
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.TLSModule.dll",
@@ -1031,7 +1017,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.TLSModule.dll"
       ],
-      "DebugActionIndex": 60
+      "DebugActionIndex": 59
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.TerrainModule.dll",
@@ -1043,7 +1029,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.TerrainModule.dll"
       ],
-      "DebugActionIndex": 61
+      "DebugActionIndex": 60
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
@@ -1055,7 +1041,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.TerrainPhysicsModule.dll"
       ],
-      "DebugActionIndex": 62
+      "DebugActionIndex": 61
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
@@ -1067,7 +1053,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll"
       ],
-      "DebugActionIndex": 63
+      "DebugActionIndex": 62
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
@@ -1079,7 +1065,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll"
       ],
-      "DebugActionIndex": 64
+      "DebugActionIndex": 63
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.TextRenderingModule.dll",
@@ -1091,7 +1077,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.TextRenderingModule.dll"
       ],
-      "DebugActionIndex": 65
+      "DebugActionIndex": 64
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.TilemapModule.dll",
@@ -1103,7 +1089,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.TilemapModule.dll"
       ],
-      "DebugActionIndex": 66
+      "DebugActionIndex": 65
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UIElementsModule.dll",
@@ -1115,7 +1101,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UIElementsModule.dll"
       ],
-      "DebugActionIndex": 67
+      "DebugActionIndex": 66
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UIModule.dll",
@@ -1127,7 +1113,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UIModule.dll"
       ],
-      "DebugActionIndex": 68
+      "DebugActionIndex": 67
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UmbraModule.dll",
@@ -1139,7 +1125,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UmbraModule.dll"
       ],
-      "DebugActionIndex": 69
+      "DebugActionIndex": 68
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
@@ -1151,7 +1137,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll"
       ],
-      "DebugActionIndex": 70
+      "DebugActionIndex": 69
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
@@ -1163,7 +1149,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityAnalyticsModule.dll"
       ],
-      "DebugActionIndex": 71
+      "DebugActionIndex": 70
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityConnectModule.dll",
@@ -1175,7 +1161,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityConnectModule.dll"
       ],
-      "DebugActionIndex": 72
+      "DebugActionIndex": 71
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityCurlModule.dll",
@@ -1187,7 +1173,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityCurlModule.dll"
       ],
-      "DebugActionIndex": 73
+      "DebugActionIndex": 72
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
@@ -1199,7 +1185,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityTestProtocolModule.dll"
       ],
-      "DebugActionIndex": 74
+      "DebugActionIndex": 73
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
@@ -1211,7 +1197,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll"
       ],
-      "DebugActionIndex": 75
+      "DebugActionIndex": 74
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
@@ -1223,7 +1209,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll"
       ],
-      "DebugActionIndex": 76
+      "DebugActionIndex": 75
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
@@ -1235,7 +1221,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestModule.dll"
       ],
-      "DebugActionIndex": 77
+      "DebugActionIndex": 76
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
@@ -1247,7 +1233,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll"
       ],
-      "DebugActionIndex": 78
+      "DebugActionIndex": 77
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
@@ -1259,7 +1245,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll"
       ],
-      "DebugActionIndex": 79
+      "DebugActionIndex": 78
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.VFXModule.dll",
@@ -1271,7 +1257,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.VFXModule.dll"
       ],
-      "DebugActionIndex": 80
+      "DebugActionIndex": 79
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.VRModule.dll",
@@ -1283,7 +1269,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.VRModule.dll"
       ],
-      "DebugActionIndex": 81
+      "DebugActionIndex": 80
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.VehiclesModule.dll",
@@ -1295,7 +1281,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.VehiclesModule.dll"
       ],
-      "DebugActionIndex": 82
+      "DebugActionIndex": 81
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.VideoModule.dll",
@@ -1307,7 +1293,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.VideoModule.dll"
       ],
-      "DebugActionIndex": 83
+      "DebugActionIndex": 82
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
@@ -1319,7 +1305,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.VirtualTexturingModule.dll"
       ],
-      "DebugActionIndex": 84
+      "DebugActionIndex": 83
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.WindModule.dll",
@@ -1331,7 +1317,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.WindModule.dll"
       ],
-      "DebugActionIndex": 85
+      "DebugActionIndex": 84
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.XRModule.dll",
@@ -1343,7 +1329,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.XRModule.dll"
       ],
-      "DebugActionIndex": 86
+      "DebugActionIndex": 85
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.dll",
@@ -1355,7 +1341,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.dll"
       ],
-      "DebugActionIndex": 87
+      "DebugActionIndex": 86
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/Assembly-CSharp.dll",
@@ -1367,7 +1353,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/Assembly-CSharp.dll"
       ],
-      "DebugActionIndex": 88
+      "DebugActionIndex": 87
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/Unity.Timeline.dll",
@@ -1379,7 +1365,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/Unity.Timeline.dll"
       ],
-      "DebugActionIndex": 89
+      "DebugActionIndex": 88
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/UnityEngine.UI.dll",
@@ -1391,7 +1377,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/UnityEngine.UI.dll"
       ],
-      "DebugActionIndex": 90
+      "DebugActionIndex": 89
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/Unity.TextMeshPro.dll",
@@ -1403,7 +1389,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/Unity.TextMeshPro.dll"
       ],
-      "DebugActionIndex": 91
+      "DebugActionIndex": 90
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/Unity.VisualScripting.Core.dll",
@@ -1415,7 +1401,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/Unity.VisualScripting.Core.dll"
       ],
-      "DebugActionIndex": 92
+      "DebugActionIndex": 91
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/Unity.VisualScripting.State.dll",
@@ -1427,7 +1413,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/Unity.VisualScripting.State.dll"
       ],
-      "DebugActionIndex": 93
+      "DebugActionIndex": 92
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/Unity.VisualScripting.Flow.dll",
@@ -1439,7 +1425,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/Unity.VisualScripting.Flow.dll"
       ],
-      "DebugActionIndex": 94
+      "DebugActionIndex": 93
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
@@ -1451,7 +1437,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll"
       ],
-      "DebugActionIndex": 95
+      "DebugActionIndex": 94
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/netstandard.dll",
@@ -1463,7 +1449,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/netstandard.dll"
       ],
-      "DebugActionIndex": 96
+      "DebugActionIndex": 95
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/Mono.Security.dll",
@@ -1475,7 +1461,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/Mono.Security.dll"
       ],
-      "DebugActionIndex": 97
+      "DebugActionIndex": 96
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.ComponentModel.Composition.dll",
@@ -1487,7 +1473,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.ComponentModel.Composition.dll"
       ],
-      "DebugActionIndex": 98
+      "DebugActionIndex": 97
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Configuration.dll",
@@ -1499,7 +1485,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Configuration.dll"
       ],
-      "DebugActionIndex": 99
+      "DebugActionIndex": 98
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Core.dll",
@@ -1511,7 +1497,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Core.dll"
       ],
-      "DebugActionIndex": 100
+      "DebugActionIndex": 99
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Data.DataSetExtensions.dll",
@@ -1523,7 +1509,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Data.DataSetExtensions.dll"
       ],
-      "DebugActionIndex": 101
+      "DebugActionIndex": 100
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Data.dll",
@@ -1535,7 +1521,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Data.dll"
       ],
-      "DebugActionIndex": 102
+      "DebugActionIndex": 101
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Drawing.dll",
@@ -1547,7 +1533,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Drawing.dll"
       ],
-      "DebugActionIndex": 103
+      "DebugActionIndex": 102
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.EnterpriseServices.dll",
@@ -1559,7 +1545,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.EnterpriseServices.dll"
       ],
-      "DebugActionIndex": 104
+      "DebugActionIndex": 103
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.IO.Compression.FileSystem.dll",
@@ -1571,7 +1557,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.IO.Compression.FileSystem.dll"
       ],
-      "DebugActionIndex": 105
+      "DebugActionIndex": 104
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.IO.Compression.dll",
@@ -1583,7 +1569,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.IO.Compression.dll"
       ],
-      "DebugActionIndex": 106
+      "DebugActionIndex": 105
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Net.Http.dll",
@@ -1595,7 +1581,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Net.Http.dll"
       ],
-      "DebugActionIndex": 107
+      "DebugActionIndex": 106
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Numerics.dll",
@@ -1607,7 +1593,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Numerics.dll"
       ],
-      "DebugActionIndex": 108
+      "DebugActionIndex": 107
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Runtime.Serialization.dll",
@@ -1619,7 +1605,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Runtime.Serialization.dll"
       ],
-      "DebugActionIndex": 109
+      "DebugActionIndex": 108
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Security.dll",
@@ -1631,7 +1617,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Security.dll"
       ],
-      "DebugActionIndex": 110
+      "DebugActionIndex": 109
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.ServiceModel.Internals.dll",
@@ -1643,7 +1629,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.ServiceModel.Internals.dll"
       ],
-      "DebugActionIndex": 111
+      "DebugActionIndex": 110
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Transactions.dll",
@@ -1655,7 +1641,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Transactions.dll"
       ],
-      "DebugActionIndex": 112
+      "DebugActionIndex": 111
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Xml.Linq.dll",
@@ -1667,7 +1653,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Xml.Linq.dll"
       ],
-      "DebugActionIndex": 113
+      "DebugActionIndex": 112
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.Xml.dll",
@@ -1679,7 +1665,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.Xml.dll"
       ],
-      "DebugActionIndex": 114
+      "DebugActionIndex": 113
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/System.dll",
@@ -1691,7 +1677,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/System.dll"
       ],
-      "DebugActionIndex": 115
+      "DebugActionIndex": 114
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Managed/mscorlib.dll",
@@ -1703,20 +1689,20 @@
       "Outputs": [
         "build/Fractured Paths_Data/Managed/mscorlib.dll"
       ],
-      "DebugActionIndex": 116
+      "DebugActionIndex": 115
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info",
       "DisplayName": "Writing app.info",
       "ActionType": "WriteFile",
-      "PayloadOffset": 15978,
+      "PayloadOffset": 15918,
       "PayloadLength": 30,
       "PayloadDebugContentSnippet": "DefaultCompany\nFractured Paths",
       "Inputs": [],
       "Outputs": [
         "Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info"
       ],
-      "DebugActionIndex": 117
+      "DebugActionIndex": 116
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/app.info",
@@ -1729,9 +1715,9 @@
         "build/Fractured Paths_Data/app.info"
       ],
       "ToBuildDependencies": [
-        117
+        116
       ],
-      "DebugActionIndex": 118
+      "DebugActionIndex": 117
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths_Data/Resources/unity default resources",
@@ -1743,7 +1729,7 @@
       "Outputs": [
         "build/Fractured Paths_Data/Resources/unity default resources"
       ],
-      "DebugActionIndex": 119
+      "DebugActionIndex": 118
     },
     {
       "Annotation": "CopyFiles build/Fractured Paths.exe",
@@ -1755,7 +1741,7 @@
       "Outputs": [
         "build/Fractured Paths.exe"
       ],
-      "DebugActionIndex": 120
+      "DebugActionIndex": 119
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
@@ -1767,7 +1753,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll"
       ],
-      "DebugActionIndex": 121
+      "DebugActionIndex": 120
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
@@ -1779,7 +1765,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll"
       ],
-      "DebugActionIndex": 122
+      "DebugActionIndex": 121
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
@@ -1791,7 +1777,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 123
+      "DebugActionIndex": 122
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
@@ -1803,7 +1789,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 124
+      "DebugActionIndex": 123
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/2.0/machine.config",
@@ -1815,7 +1801,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/2.0/machine.config"
       ],
-      "DebugActionIndex": 125
+      "DebugActionIndex": 124
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/2.0/settings.map",
@@ -1827,7 +1813,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/2.0/settings.map"
       ],
-      "DebugActionIndex": 126
+      "DebugActionIndex": 125
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/2.0/web.config",
@@ -1839,7 +1825,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/2.0/web.config"
       ],
-      "DebugActionIndex": 127
+      "DebugActionIndex": 126
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
@@ -1851,7 +1837,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 128
+      "DebugActionIndex": 127
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
@@ -1863,7 +1849,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 129
+      "DebugActionIndex": 128
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.0/machine.config",
@@ -1875,7 +1861,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.0/machine.config"
       ],
-      "DebugActionIndex": 130
+      "DebugActionIndex": 129
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.0/settings.map",
@@ -1887,7 +1873,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.0/settings.map"
       ],
-      "DebugActionIndex": 131
+      "DebugActionIndex": 130
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.0/web.config",
@@ -1899,7 +1885,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.0/web.config"
       ],
-      "DebugActionIndex": 132
+      "DebugActionIndex": 131
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
@@ -1911,7 +1897,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser"
       ],
-      "DebugActionIndex": 133
+      "DebugActionIndex": 132
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
@@ -1923,7 +1909,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx"
       ],
-      "DebugActionIndex": 134
+      "DebugActionIndex": 133
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.5/machine.config",
@@ -1935,7 +1921,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.5/machine.config"
       ],
-      "DebugActionIndex": 135
+      "DebugActionIndex": 134
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.5/settings.map",
@@ -1947,7 +1933,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.5/settings.map"
       ],
-      "DebugActionIndex": 136
+      "DebugActionIndex": 135
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/4.5/web.config",
@@ -1959,7 +1945,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/4.5/web.config"
       ],
-      "DebugActionIndex": 137
+      "DebugActionIndex": 136
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/browscap.ini",
@@ -1971,7 +1957,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/browscap.ini"
       ],
-      "DebugActionIndex": 138
+      "DebugActionIndex": 137
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/config",
@@ -1983,7 +1969,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/config"
       ],
-      "DebugActionIndex": 139
+      "DebugActionIndex": 138
     },
     {
       "Annotation": "CopyFiles build/MonoBleedingEdge/etc/mono/mconfig/config.xml",
@@ -1995,7 +1981,7 @@
       "Outputs": [
         "build/MonoBleedingEdge/etc/mono/mconfig/config.xml"
       ],
-      "DebugActionIndex": 140
+      "DebugActionIndex": 139
     },
     {
       "Annotation": "CopyFiles build/UnityCrashHandler64.exe",
@@ -2007,7 +1993,7 @@
       "Outputs": [
         "build/UnityCrashHandler64.exe"
       ],
-      "DebugActionIndex": 141
+      "DebugActionIndex": 140
     },
     {
       "Annotation": "CopyFiles build/UnityPlayer.dll",
@@ -2019,7 +2005,7 @@
       "Outputs": [
         "build/UnityPlayer.dll"
       ],
-      "DebugActionIndex": 142
+      "DebugActionIndex": 141
     },
     {
       "Annotation": "Player",
@@ -2042,7 +2028,7 @@
         13,
         14,
         15,
-        16,
+        18,
         19,
         20,
         21,
@@ -2140,7 +2126,7 @@
         113,
         114,
         115,
-        116,
+        117,
         118,
         119,
         120,
@@ -2164,11 +2150,10 @@
         138,
         139,
         140,
-        141,
-        142
+        141
       ],
       "OverwriteOutputs": false,
-      "DebugActionIndex": 143
+      "DebugActionIndex": 142
     }
   ],
   "FileSignatures": [
@@ -2369,7 +2354,7 @@
   "EmitDataForBeeWhy": 0,
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 143
+          "Player": 142
         }
 ,  "DefaultNodes": [
     0

@@ -39,7 +39,7 @@ public class playerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(pauseMenu != null && pauseMenu.isPaused)
+        if (pauseMenu != null && pauseMenu.isPaused)
         {
             return;
         }
@@ -48,9 +48,11 @@ public class playerController : MonoBehaviour
         newVelocity = Vector3.up * rigidBody.velocity.y;
         newVelocity.x = Input.GetAxis("Horizontal") * speed;
         newVelocity.z = Input.GetAxis("Vertical") * speed;
-    
-        if( isGrounded){
-            if(Input.GetKeyDown(KeyCode.Space) && !isJumping){
+
+        if (isGrounded)
+        {
+            if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+            {
                 newVelocity.y = jumpSpeed;
                 isJumping = true;
             }
@@ -60,11 +62,17 @@ public class playerController : MonoBehaviour
         bool isMovingOnGround = ((Input.GetAxis("Vertical") != 0f || Input.GetAxis("Horizontal") != 0f) && isGrounded);
 
         //Audio
-        audioWalk.enabled = isMovingOnGround;
-        audioWalk.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.75f : 1f;
+        if (pauseMenu != null && pauseMenu.isPaused)
+        {
+            audioWalk.enabled = false;
+        }
+        else
+        {
+            audioWalk.enabled = isMovingOnGround;
+            //audioWalk.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.75f : 1f;
+        }
     }
-
-    void FixedUpdate()
+        void FixedUpdate()
     {
         // newVelocity = Vector3.up * rigidBody.velocity.y;
         // newVelocity.x = Input.GetAxis("Horizontal") * speed;

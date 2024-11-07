@@ -3,7 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - AudioMenu
-    - CustomSlider
+    - CustomMusicSlider
+    - CustomSFXSlider
     - GraphicsMenu
     - KeyBindMenu
     - MainMenu
@@ -111,6 +112,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7130}
     - Class: 114
       Script: {instanceID: 7334}
+    - Class: 114
+      Script: {instanceID: 24812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -202,6 +205,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7130}
     - Class: 114
       Script: {instanceID: 7334}
+    - Class: 114
+      Script: {instanceID: 24812}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -265,7 +270,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 2f2d01b264c1d4b0c18b595e6e601f34
+      Hash: 7bc57c16ecee72487eaa27e03e1b5d4f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AudioManager
@@ -499,10 +504,10 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ad76c48462c89fcb63ff7bb230670af5
+      Hash: c9271d05076c6296f9b2048f1d8da630
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: CustomSlider
+    className: CustomMusicSlider
   - hash:
       serializedVersion: 2
       Hash: 5b8b7230ad968399f6726aa1269dcdcb
@@ -859,7 +864,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 24913e02220354b682c70896e1178d1e
+      Hash: e96c48ea2f9058c4422402c781b44f71
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SettingsMenu
@@ -1127,6 +1132,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b33910d67397f7feade4ef8cda7c78cd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CustomSFXSlider
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
