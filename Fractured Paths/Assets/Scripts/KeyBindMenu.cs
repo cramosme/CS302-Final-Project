@@ -18,8 +18,14 @@ public class KeyBindMenu : MonoBehaviour
       backButton = root.Q<Button>("BackButton");
       backButton.clickable.clicked += () => ExitMenu();
    }
-
-   private void ExitMenu()
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && SceneManager.GetActiveScene().name != "MainMenuScene")
+        {
+            keyBindsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
+        }
+    }
+    private void ExitMenu()
    {
       keyBindsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
       settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;

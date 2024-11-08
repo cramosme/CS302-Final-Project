@@ -36,16 +36,14 @@ public class SettingsMenu : MonoBehaviour
       backButton.clickable.clicked += () => ExitMenu();
 
    }
-
-    private void Start()
+    private void Update()
     {
-        Resolution[] resolutions = Screen.resolutions;
-
-        foreach (var res in resolutions)
+        if (Input.GetKeyDown(KeyCode.Escape) && SceneManager.GetActiveScene().name != "MainMenuScene")
         {
-            Debug.Log(res.width + "x" + res.height + " : " + res.refreshRateRatio);
+            settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
         }
     }
+
     private void ShowKeyBindingMenu()
    {
       settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
@@ -63,19 +61,29 @@ public class SettingsMenu : MonoBehaviour
       settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
       audioMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;
    }
+    private void ExitMenu()
+    {
+        // Check if we are in the main menu scene
+        bool isMainMenuScene = SceneManager.GetActiveScene().name == "MainMenuScene";
 
-   private void ExitMenu()
-   {
-      if( pauseMenu != null && pauseMenu.isPaused)
+        if (pauseMenu != null && pauseMenu.isPaused && !isMainMenuScene)
         {
+            // In-game scenario
             settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
             pauseMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;
-
         }
-        else
+        else if (isMainMenuScene && mainMenuDocument != null)
         {
+            // Main menu scenario
             settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
             mainMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;
         }
+        else
+        {
+            // Fallback in case mainMenuDocument is null or an unexpected state occurs
+            Debug.LogWarning("mainMenuDocument is null or an unexpected scene state.");
+            settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
+        }
     }
+
 }

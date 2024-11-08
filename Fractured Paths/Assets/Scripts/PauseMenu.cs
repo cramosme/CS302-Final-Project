@@ -19,6 +19,7 @@ public class PauseMenu : MonoBehaviour
 
     public bool isPaused;
 
+    public static PauseMenu instance;
     private void Start()
     {
         isPaused = false;///////////////////////
