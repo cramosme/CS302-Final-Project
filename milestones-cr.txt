@@ -1,5 +1,5 @@
 Time Log (Time spent on the project):
-  Total Time: 6 hours and 10 minutes
+  Total Time: 36 hours and 20 minutes
     09/23/24 - 12:30 pm to 1:30 pm ( 1hr )
        - Spent time creating the git repository, syncing with Unity, and downloading all necessary Unity files to have a base to work on.
     09/29/24 - 2:20 pm to 3:20 pm ( 1hr )
@@ -11,6 +11,31 @@ Time Log (Time spent on the project):
        - Added code for the character to be able to jump
     10/27/24 - 1:30 pm to 4:00 pm ( 2 and a half hours )
        - Continued learning how to use Unity (Pathway program)
+    11/03/24 - 12:00 pm to 6:30 pm( 6 and a half hours
+       - Added a Main Menu UI and Sub-Menu UI
+       - Created 5 new c# scripts to aid in the functionality of the menus( AudioMenu.cs, GraphicsMenu.cs, KeyBindMenu.cs, MainMenu.cs, SettingsMenu.cs)
+       - Added a separate game scene to isolate Menu functions and in-game functions
+    11/04/24 - 8:00 am to 1:30 pm( 5 and half hours )
+       - Fine-tuning Menus and adding logo to the scenes 
+       - Added functionality to Main Menu, making sure all buttons work( Play, Settings, Exit Game )
+       - Added functionality to Settings Menu for Music Slider and back button 
+    11/05/24 - 11:00 am - 6:00 pm(7 hours)
+       - Added audio files for BGM
+       - Created an AudioMixer that handles volume for all music and SFX
+       - Added AudioManager.cs which simply started playing the background music
+       - Added CustomeSlider.cs which helped with the design of the music slider, adding in a fill bar and displaying the current volume level to the side
+    11/06/24 - 8:00 am to 1:30 pm(5 and a half hours)
+       - Made audio carry through scenes. This aids in the sliders saving player pref
+       - Added a pause menu UI as well as PauseMenu.cs which allows players to hit the 'Esc' key to pause the game and let them navigate to settings or back to the main menu
+       - Fixed a bug in the Pause Menu where the camera was still moving although the game was paused
+       - Added an SFX slider
+    11/07/24 - 8:00 - 12:20(4 hours and 20 min)
+       - Cleaning up unused files
+       - Renamed CustomeSlider.cs to CustomeMusicSlider.cs and added CustomSFXSlider.cs to allow control of both sliders and to make sure there was no conflict between the two
+       - Started testing for the addition of the option to change resolutions in the graphics menu
+    11/08/24 - 9:30 - 10:50(1 hour and 20 min)
+       - Fixed a bug where hitting escape while in the settings menu would unpause the game, but not get rid of the menu.
+       - Added functionality to Escape key where it closes all menus if the game is paused and the player is in a submenu, added code so it wouldn't conflict with the main menu scene
 
 Rubric:
   10 - Valid movement of character
