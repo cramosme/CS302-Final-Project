@@ -97,25 +97,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 2318}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 4808}
     - Class: 114
-      Script: {instanceID: 4810}
+      Script: {instanceID: 5380}
     - Class: 114
-      Script: {instanceID: 5382}
+      Script: {instanceID: 5392}
     - Class: 114
-      Script: {instanceID: 5394}
+      Script: {instanceID: 5606}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 7130}
     - Class: 114
-      Script: {instanceID: 7132}
-    - Class: 114
-      Script: {instanceID: 7336}
+      Script: {instanceID: 7334}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -188,27 +186,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2318}
+      Script: {instanceID: 2640}
     - Class: 114
-      Script: {instanceID: 2642}
+      Script: {instanceID: 2842}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 3388}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 4808}
     - Class: 114
-      Script: {instanceID: 4810}
+      Script: {instanceID: 5236}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 5606}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 5814}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 6072}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 7130}
     - Class: 114
-      Script: {instanceID: 7132}
+      Script: {instanceID: 7334}
     - Class: 114
-      Script: {instanceID: 7336}
+      Script: {instanceID: 7854}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -324,12 +322,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: b33910d67397f7feade4ef8cda7c78cd
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CustomSFXSlider
   - hash:
       serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
@@ -1140,6 +1132,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b33910d67397f7feade4ef8cda7c78cd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CustomSFXSlider
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
