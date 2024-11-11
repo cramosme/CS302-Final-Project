@@ -69,6 +69,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -126,6 +128,8 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 205
+      Script: {instanceID: 0}
+    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -265,7 +269,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 2f2d01b264c1d4b0c18b595e6e601f34
+      Hash: dc26ea95e9bd474eed4a2f24fff18807
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AudioManager
@@ -859,7 +863,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: 24913e02220354b682c70896e1178d1e
+      Hash: e96c48ea2f9058c4422402c781b44f71
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SettingsMenu
