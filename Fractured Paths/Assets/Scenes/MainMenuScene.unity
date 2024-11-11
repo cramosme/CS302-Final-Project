@@ -759,7 +759,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1227994047}
   sfxSource: {fileID: 82249180}
-  bgm: {fileID: 8300000, guid: 3aa8f1d7601a19d4c88dcaaa262c2e06, type: 3}
+  mainMenuBGM: {fileID: 8300000, guid: 5a1944aa7c9b294499f993b3c5b484f5, type: 3}
+  gameBGM: {fileID: 8300000, guid: 3aa8f1d7601a19d4c88dcaaa262c2e06, type: 3}
   sfx: {fileID: 8300000, guid: 4f4f704c9e8b3ce40ace4ca3d65dc749, type: 3}
 --- !u!4 &1327509247
 Transform:
@@ -925,6 +926,7 @@ GameObject:
   - component: {fileID: 1620124061}
   - component: {fileID: 1620124063}
   - component: {fileID: 1620124064}
+  - component: {fileID: 1620124065}
   m_Layer: 5
   m_Name: AudioMenu
   m_TagString: Untagged
@@ -987,6 +989,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f7494e27ade6ca141a8cc6775ffb90b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMixer: {fileID: 24100000, guid: 4a3ae50be7e28b74cafc9e6f8fcd5d78, type: 2}
+--- !u!114 &1620124065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1620124060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02553801b503bd44890b67dfd7f61ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   myMixer: {fileID: 24100000, guid: 4a3ae50be7e28b74cafc9e6f8fcd5d78, type: 2}

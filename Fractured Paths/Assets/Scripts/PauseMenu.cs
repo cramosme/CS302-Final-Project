@@ -19,6 +19,7 @@ public class PauseMenu : MonoBehaviour
 
     public bool isPaused;
 
+    public static PauseMenu instance;
     private void Start()
     {
         isPaused = false;///////////////////////
@@ -63,7 +64,10 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1;
 
         UnityEngine.Cursor.visible = false;
-
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.ResumeMusic();
+        }
     }
 
     private void PauseGame()
@@ -71,9 +75,13 @@ public class PauseMenu : MonoBehaviour
         isPaused = true;
         pauseMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;
         Time.timeScale = 0;
-
         UnityEngine.Cursor.visible = true;
         UnityEngine.Cursor.lockState = CursorLockMode.None;
+        if (AudioManager.instance != null)
+        {
+            AudioManager.instance.StopSFX();
+            AudioManager.instance.PauseMusic();
+        }
     }
 
     private void ShowSettingsMenu()
