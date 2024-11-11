@@ -3,7 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - AudioMenu
-    - CustomSlider
+    - CustomMusicSlider
+    - CustomSFXSlider
     - GraphicsMenu
     - KeyBindMenu
     - MainMenu
@@ -29,6 +30,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     UnityEngine.UIElementsModule:
     - UnityEngine.UIElements.Button/UxmlFactory
+    - UnityEngine.UIElements.DropdownField/UxmlFactory
     - UnityEngine.UIElements.DynamicAtlasSettings
     - UnityEngine.UIElements.Label/UxmlFactory
     - UnityEngine.UIElements.Slider/UxmlFactory
@@ -41,6 +43,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UIElements.StyleSheets.Dimension
     - UnityEngine.UIElements.StyleSheets.ScalableImage
     - UnityEngine.UIElements.StyleValueHandle
+    - UnityEngine.UIElements.Toggle/UxmlFactory
     - UnityEngine.UIElements.UxmlRootElementFactory
     - UnityEngine.UIElements.VisualElement/UxmlFactory
     - UnityEngine.UIElements.VisualElementAsset
@@ -69,8 +72,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 82
@@ -96,23 +97,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2318}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 4808}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 5380}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 5392}
+      Script: {instanceID: 5382}
     - Class: 114
-      Script: {instanceID: 5606}
+      Script: {instanceID: 5394}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 7130}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 7334}
+      Script: {instanceID: 7132}
+    - Class: 114
+      Script: {instanceID: 7336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -128,8 +131,6 @@ ScriptsOnlyBuild:
     - Class: 196
       Script: {instanceID: 0}
     - Class: 205
-      Script: {instanceID: 0}
-    - Class: 212
       Script: {instanceID: 0}
     - Class: 213
       Script: {instanceID: 0}
@@ -187,25 +188,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2318}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 4808}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 5236}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 5606}
+      Script: {instanceID: 5238}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 6072}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 7130}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 7334}
+      Script: {instanceID: 7132}
+    - Class: 114
+      Script: {instanceID: 7336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -269,7 +272,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: dc26ea95e9bd474eed4a2f24fff18807
+      Hash: 7bc57c16ecee72487eaa27e03e1b5d4f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AudioManager
@@ -321,6 +324,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b33910d67397f7feade4ef8cda7c78cd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CustomSFXSlider
   - hash:
       serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
@@ -503,10 +512,10 @@ ScriptsOnlyBuild:
     className: UnityOnSelectMessageListener
   - hash:
       serializedVersion: 2
-      Hash: ad76c48462c89fcb63ff7bb230670af5
+      Hash: c9271d05076c6296f9b2048f1d8da630
     assemblyName: Assembly-CSharp
     namespaceName: 
-    className: CustomSlider
+    className: CustomMusicSlider
   - hash:
       serializedVersion: 2
       Hash: 5b8b7230ad968399f6726aa1269dcdcb

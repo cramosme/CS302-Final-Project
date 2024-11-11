@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class AudioMenu : MonoBehaviour
@@ -16,8 +17,15 @@ public class AudioMenu : MonoBehaviour
       backButton.clickable.clicked += () => ExitMenu();
 
    }
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) && SceneManager.GetActiveScene().name != "MainMenuScene")
+        {
+            audioMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
+        }
+    }
 
-   private void ExitMenu()
+    private void ExitMenu()
    {
       audioMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
       settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;

@@ -17,8 +17,11 @@ public class MainMenu : MonoBehaviour
    private Button settingsButton;
    private Button exitButton;
 
+    public static MainMenu instance;
+
    private void Awake()
    {
+
       VisualElement mainRoot = mainMenuDocument.rootVisualElement;
 
       playButton = mainRoot.Q<Button>("PlayButton");
@@ -36,7 +39,7 @@ public class MainMenu : MonoBehaviour
 
    }
 
-   private void PlayGame()
+    private void PlayGame()
    {
       SceneManager.LoadScene("GameScene");
    }
