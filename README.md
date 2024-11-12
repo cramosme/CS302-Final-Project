@@ -8,3 +8,20 @@
       - We discussed further how we plan to implement Disjoint Sets into our game
       - Came up with an initial puzzle design that makes sense for implementing Disjoint Sets
       - Also discussed a timeline for the next steps and order elements of our game should be completed in
+
+11/04/24 9:00 am to 1:20 pm (4 hours and 20 min)
+      - Participants were Braeden and Chris
+      - Braeden worked on the game side while Chris worked on the UI side
+
+11/06/24 9:00 am to 1:20 pm (4 hours and 20 min)
+      - Participants were Braeden and Chris
+      - Braeden worked on the game side while Chris worked on the UI side
+
+11/08/24 9:00 am to 10:30 am (1 hour and 30 min)
+      - Participants were Braeden and Chris
+      - Braeden worked on the game side while Chris wroked on the UI side
+
+11/11/24 9:00 am to 1:20 pm (4 hours and 20 min)
+      - All memebers were present
+      - Braeden and Ahmed worked on the game side while Chris worked on the UI side
+      - Kevin assisted with game along with creation of PowerPoint for presentation on 11/14/24
