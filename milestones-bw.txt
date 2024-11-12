@@ -26,6 +26,14 @@ Time Log:
          to interact with objects later on
     10/28/24 - 6:30 pm to 7:30 pm
        - Began researching how to use Blender (will be used to create simple assets such as a button)
+    11/04/24 - 9:00 am to 1:20 pm
+       - Began learning how to make/creating the environemnt where our puzzle game will take place
+    11/06/24 - 9:00 am to 1:20 pm
+       - Re-designed the created environment to make the grass look more full/better and cleaned up the tree appearance
+    11/08/24 - 9:00 am to 10:30 am
+       - Began developing the room where our first puzzle will reside
+    11/11/24 - 9:00 am to 1:20 pm
+       - Drew all of the viking rune symbols, made them transparent, and inserting the created assets onto their corresponding buttons
 
 Rubric (40 points):
   - We have a functioning puzzle (10 points)
