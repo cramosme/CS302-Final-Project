@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
+using UnityEngine.Playables;
 
 public class GraphicsMenu : MonoBehaviour
 {
@@ -41,11 +42,16 @@ public class GraphicsMenu : MonoBehaviour
 
     }
 
-    //private void Start()
-    //{
-    //    SetDefaultFrameRate();
-    
-    //}
+    private void Start()
+    {
+        LoadWindowMode();
+        LoadResolution();
+        LoadFrameRate();
+
+        windowModeDropdown.value = PlayerPrefs.GetInt("WindowMode", (int)FullScreenMode.FullScreenWindow).ToString();
+        resolutionDropdown.value = $"{PlayerPrefs.GetInt("ResolutionWidth", Screen.currentResolution.width)}x{PlayerPrefs.GetInt("ResolutionHeight", Screen.currentResolution.height)}";
+        frameRateDropdown.value = PlayerPrefs.GetInt("FrameRate", (int)Mathf.Ceil((float)Screen.currentResolution.refreshRateRatio.numerator /                                                                  (float)Screen.currentResolution.refreshRateRatio.denominator)).ToString();
+    }
 
     private void Update()
     {
@@ -58,12 +64,12 @@ public class GraphicsMenu : MonoBehaviour
     {
         // Gets the max refresh rate of the current display
         int maxRefreshRate = (int)Mathf.Ceil((float)Screen.currentResolution.refreshRateRatio.numerator / (float) Screen.currentResolution.refreshRateRatio.denominator);
-        Application.targetFrameRate = maxRefreshRate;
         List<string> frameRateOptions = new List<string>(); // These are the frame rates that will get added to the drop down menu
 
         foreach (int frameRate in commonframeRates) // loops through the predefined list with common frame rates
         {
-            if (frameRate <= maxRefreshRate) // if the current frameRate in the predetermined list is less than the max refresh rate than include it as an option
+            // if the current frameRate in the predetermined list is less than the max refresh rate than include it as an option
+            if (frameRate <= maxRefreshRate) 
             {
                 frameRateOptions.Add(frameRate.ToString());
             }
@@ -74,13 +80,15 @@ public class GraphicsMenu : MonoBehaviour
             frameRateOptions.Add(maxRefreshRate.ToString());
         }
 
-        frameRateDropdown.choices = frameRateOptions;
+        frameRateDropdown.choices = frameRateOptions; // this will actually populate the drop down values
+        frameRateDropdown.value = maxRefreshRate.ToString(); // Default value of the drop down is the max refresh rate of the current display
     }
 
     private void PopulateResolutionOptions()
     {
-        resolutions = Screen.resolutions;
-        List<string> resolutionOptions = new List<string>();
+        
+        resolutions = Screen.resolutions; // Fills the Resolution array with all resolutions the current display supports
+        List<string> resolutionOptions = new List<string>(); // creates a new list of options to be displayed
 
         foreach (Resolution res in resolutions)
         {
@@ -99,25 +107,55 @@ public class GraphicsMenu : MonoBehaviour
     {
         List<string> windowModeOptions = new List<string> { "Fullscreen", "Windowed", "Borderless" };
         windowModeDropdown.choices = windowModeOptions;
+        windowModeDropdown.value = "Fullscreen";
+    }
 
-        if (Screen.fullScreenMode == FullScreenMode.FullScreenWindow)
+    private void LoadWindowMode()
+    {
+        // If PlayerPrefs doesn't have the setting, set it to Fullscreen
+        if (!PlayerPrefs.HasKey("WindowMode"))
         {
-            windowModeDropdown.value = "Fullscreen";
+            PlayerPrefs.SetInt("WindowMode", (int)FullScreenMode.FullScreenWindow);
+            PlayerPrefs.Save();
         }
-        else if (Screen.fullScreenMode == FullScreenMode.Windowed)
+
+        int mode = PlayerPrefs.GetInt("WindowMode");
+        Screen.fullScreenMode = (FullScreenMode)mode;
+    }
+
+    private void LoadResolution()
+    {
+        // If PlayerPrefs doesn't have the resolution settings, set them to the current screen resolution
+        if (!PlayerPrefs.HasKey("ResolutionWidth") || !PlayerPrefs.HasKey("ResolutionHeight"))
         {
-            windowModeDropdown.value = "Windowed";
+            PlayerPrefs.SetInt("ResolutionWidth", Screen.currentResolution.width);
+            PlayerPrefs.SetInt("ResolutionHeight", Screen.currentResolution.height);
+            PlayerPrefs.Save();
         }
-        else
+
+        int width = PlayerPrefs.GetInt("ResolutionWidth");
+        int height = PlayerPrefs.GetInt("ResolutionHeight");
+        Screen.SetResolution(width, height, Screen.fullScreenMode);
+    }
+
+    private void LoadFrameRate()
+    {
+        // If PlayerPrefs doesn't have the frame rate setting, set it to the maximum refresh rate of the current display
+        if (!PlayerPrefs.HasKey("FrameRate"))
         {
-            windowModeDropdown.value = "Borderless";
+            int maxRefreshRate = (int)Mathf.Ceil((float)Screen.currentResolution.refreshRateRatio.numerator /
+                                                  (float)Screen.currentResolution.refreshRateRatio.denominator);
+            PlayerPrefs.SetInt("FrameRate", maxRefreshRate);
+            PlayerPrefs.Save();
         }
+
+        int frameRate = PlayerPrefs.GetInt("FrameRate");
+        Application.targetFrameRate = frameRate;
     }
 
     private void SetFrameRate(int frameRate)
     {
         Application.targetFrameRate = frameRate;
-        Debug.Log($"Frame rate set to: {frameRate}");
     }
 
     private void SetResolution(string resolution)
@@ -128,7 +166,6 @@ public class GraphicsMenu : MonoBehaviour
             if (option == resolution)
             {
                 Screen.SetResolution(res.width, res.height, Screen.fullScreenMode, res.refreshRateRatio);
-                Debug.Log($"Resolution set to: {option}");
                 break;
             }
         }
@@ -148,14 +185,11 @@ public class GraphicsMenu : MonoBehaviour
         {
             Screen.fullScreenMode = FullScreenMode.MaximizedWindow;
         }
-
-        Debug.Log($"Window mode set to: {mode}");
     }
 
     private void SetVSync(bool isEnabled)
     {
         QualitySettings.vSyncCount = isEnabled ? 1 : 0;
-        Debug.Log($"VSync set to: {(isEnabled ? "Enabled" : "Disabled")}");
     }
     private void ExitMenu()
    {
