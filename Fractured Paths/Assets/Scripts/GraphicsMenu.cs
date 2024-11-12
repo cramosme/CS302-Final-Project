@@ -48,9 +48,9 @@ public class GraphicsMenu : MonoBehaviour
         LoadResolution();
         LoadFrameRate();
 
-        windowModeDropdown.value = PlayerPrefs.GetInt("WindowMode", (int)FullScreenMode.FullScreenWindow).ToString();
-        resolutionDropdown.value = $"{PlayerPrefs.GetInt("ResolutionWidth", Screen.currentResolution.width)}x{PlayerPrefs.GetInt("ResolutionHeight", Screen.currentResolution.height)}";
-        frameRateDropdown.value = PlayerPrefs.GetInt("FrameRate", (int)Mathf.Ceil((float)Screen.currentResolution.refreshRateRatio.numerator /                                                                  (float)Screen.currentResolution.refreshRateRatio.denominator)).ToString();
+        //windowModeDropdown.value = PlayerPrefs.GetInt("WindowMode", (int)FullScreenMode.FullScreenWindow).ToString();
+        //resolutionDropdown.value = $"{PlayerPrefs.GetInt("ResolutionWidth", Screen.currentResolution.width)}x{PlayerPrefs.GetInt("ResolutionHeight", Screen.currentResolution.height)}";
+        //frameRateDropdown.value = PlayerPrefs.GetInt("FrameRate", (int)Mathf.Ceil((float)Screen.currentResolution.refreshRateRatio.numerator /                                                                  (float)Screen.currentResolution.refreshRateRatio.denominator)).ToString();
     }
 
     private void Update()
@@ -156,6 +156,8 @@ public class GraphicsMenu : MonoBehaviour
     private void SetFrameRate(int frameRate)
     {
         Application.targetFrameRate = frameRate;
+        PlayerPrefs.SetInt("FrameRate", frameRate);
+        PlayerPrefs.Save();
     }
 
     private void SetResolution(string resolution)
@@ -166,6 +168,9 @@ public class GraphicsMenu : MonoBehaviour
             if (option == resolution)
             {
                 Screen.SetResolution(res.width, res.height, Screen.fullScreenMode, res.refreshRateRatio);
+                PlayerPrefs.SetInt("ResolutionWidth", Screen.currentResolution.width);
+                PlayerPrefs.SetInt("ResolutionHeight", Screen.currentResolution.height);
+                PlayerPrefs.Save();
                 break;
             }
         }
