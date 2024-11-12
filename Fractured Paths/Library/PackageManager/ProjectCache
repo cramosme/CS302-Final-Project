@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638669540725290802
+      ticks: 638663307879448713
     m_Hash: 124468960
   m_LockFileStatus:
     m_FilePath: C:/Git/CS302-Final-Project/Fractured Paths/Packages/packages-lock.json
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638669540725290802
+      ticks: 638663307879448713
     m_Hash: 926671596
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
