@@ -14,8 +14,8 @@
       - Braeden worked on the game side while Chris worked on the UI side
 
 11/06/24 9:00 am to 1:20 pm (4 hours and 20 min)
-      - Participants were Braeden and Chris
-      - Braeden worked on the game side while Chris worked on the UI side
+      - Participants were Braeden, Ahmed, and Chris
+      - Braeden and Ahmed worked on the game side while Chris worked on the UI side
 
 11/08/24 9:00 am to 10:30 am (1 hour and 30 min)
       - Participants were Braeden and Chris
