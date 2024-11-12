@@ -9,11 +9,15 @@ Individual Task:
   - I created the playerController.cs file which enable the player to look and move around the screen.
 
 Time Log:
-  Total Time: 5 hours and 40 minutes
+  Total Time: 10 hours and 30 minutes
     09/23/24 - 9:20am - 12:30pm
        - Talked about what we wanted to do and finalized our decision. Researched puzzle games/downloaded Unity and set up software
     09/25/24 - 3:00pm - 5:30 pm
        - watched Unity Tutorials for making a 3d game in Unity. This was helpful as it led me to making a playable character
+    11/06/24 - 9:00am - 12:40pm
+    Worked with group to create the surrounding environment of the game scene.
+    11/08/24 - 9:30am - 12:40pm
+    Fixed sizing of assets in game. Started the process of creating the first puzzle.
     
 
 Rubric (40 points):
