@@ -8,7 +8,6 @@ public class SettingsMenu : MonoBehaviour
 {
    [SerializeField] UIDocument settingsMenuDocument;
    [SerializeField] UIDocument mainMenuDocument;
-   [SerializeField] UIDocument keyBindsMenuDocument;
    [SerializeField] UIDocument graphicsMenuDocument;
    [SerializeField] UIDocument audioMenuDocument;
    [SerializeField] UIDocument pauseMenuDocument;
@@ -30,7 +29,6 @@ public class SettingsMenu : MonoBehaviour
       audioButton = root.Q<Button>("AudioSettingsButton");
       backButton = root.Q<Button>("BackButton");
 
-      keyBindButton.clickable.clicked += () => ShowKeyBindingMenu();
       graphicsButton.clickable.clicked += () => ShowGraphicsMenu();
       audioButton.clickable.clicked += () => ShowAudioMenu();
       backButton.clickable.clicked += () => ExitMenu();
@@ -43,12 +41,6 @@ public class SettingsMenu : MonoBehaviour
             settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
         }
     }
-
-    private void ShowKeyBindingMenu()
-   {
-      settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
-      keyBindsMenuDocument.rootVisualElement.style.display = DisplayStyle.Flex;
-   }
 
    private void ShowGraphicsMenu()
    {

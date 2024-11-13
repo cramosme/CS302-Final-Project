@@ -1740,6 +1740,7 @@ GameObject:
   - component: {fileID: 293397878}
   - component: {fileID: 293397880}
   - component: {fileID: 293397879}
+  - component: {fileID: 293397882}
   m_Layer: 5
   m_Name: AudioMenu
   m_TagString: Untagged
@@ -1805,6 +1806,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &293397882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293397877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02553801b503bd44890b67dfd7f61ea1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myMixer: {fileID: 24100000, guid: 4a3ae50be7e28b74cafc9e6f8fcd5d78, type: 2}
 --- !u!1001 &303178081
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7530,7 +7544,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settingsMenuDocument: {fileID: 1201517420}
   mainMenuDocument: {fileID: 0}
-  keyBindsMenuDocument: {fileID: 686875065}
   graphicsMenuDocument: {fileID: 729068880}
   audioMenuDocument: {fileID: 293397878}
   pauseMenuDocument: {fileID: 506295069}
@@ -8771,7 +8784,6 @@ GameObject:
   - component: {fileID: 1415365173}
   - component: {fileID: 1415365172}
   - component: {fileID: 1415365171}
-  - component: {fileID: 1415365174}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -8865,20 +8877,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415365169}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!114 &1415365174
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1415365169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e40d2ba75aea04148a999fbb889ce55f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myMaterial: {fileID: 0}
-  myColor: {r: 1, g: 1, b: 1, a: 0}
 --- !u!4 &1428453400 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 54c2100317f765442a1f247c7d09ccf5, type: 3}

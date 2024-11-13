@@ -6,7 +6,6 @@ ScriptsOnlyBuild:
     - CustomMusicSlider
     - CustomSFXSlider
     - GraphicsMenu
-    - KeyBindMenu
     - MainMenu
     - PauseMenu
     - SettingsMenu
@@ -86,37 +85,35 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 626}
+    - Class: 114
+      Script: {instanceID: 628}
+    - Class: 114
       Script: {instanceID: 630}
     - Class: 114
-      Script: {instanceID: 632}
+      Script: {instanceID: 652}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 654}
     - Class: 114
-      Script: {instanceID: 656}
+      Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 658}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 1644}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 5382}
     - Class: 114
-      Script: {instanceID: 4814}
+      Script: {instanceID: 5394}
     - Class: 114
-      Script: {instanceID: 5386}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 5398}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 7132}
     - Class: 114
-      Script: {instanceID: 5820}
-    - Class: 114
-      Script: {instanceID: 6378}
-    - Class: 114
-      Script: {instanceID: 7138}
-    - Class: 114
-      Script: {instanceID: 7342}
+      Script: {instanceID: 7336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -179,39 +176,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
+      Script: {instanceID: 626}
+    - Class: 114
+      Script: {instanceID: 628}
+    - Class: 114
       Script: {instanceID: 630}
     - Class: 114
-      Script: {instanceID: 632}
+      Script: {instanceID: 652}
     - Class: 114
-      Script: {instanceID: 634}
+      Script: {instanceID: 654}
     - Class: 114
-      Script: {instanceID: 656}
+      Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 658}
+      Script: {instanceID: 2318}
     - Class: 114
-      Script: {instanceID: 1838}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 2322}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 2646}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 2848}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 3394}
+      Script: {instanceID: 5238}
     - Class: 114
-      Script: {instanceID: 4814}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 5242}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 5612}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 5820}
+      Script: {instanceID: 7132}
     - Class: 114
-      Script: {instanceID: 6078}
-    - Class: 114
-      Script: {instanceID: 7138}
-    - Class: 114
-      Script: {instanceID: 7342}
+      Script: {instanceID: 7336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -875,7 +872,7 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
-      Hash: e96c48ea2f9058c4422402c781b44f71
+      Hash: ba626004a0e9e950b31262c5d258d1ab
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: SettingsMenu
@@ -1061,12 +1058,6 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 4156618dba0bdec310754bacb67822e6
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: KeyBindMenu
-  - hash:
-      serializedVersion: 2
       Hash: 9a174471d4db2c0c6d3ac47d2f818db1
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
@@ -1147,4 +1138,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/Git/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
+  playerPath: C:/codingApps/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
