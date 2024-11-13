@@ -13,6 +13,8 @@ ScriptsOnlyBuild:
     - playerController
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -97,23 +99,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 4808}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 5380}
+      Script: {instanceID: 5382}
     - Class: 114
-      Script: {instanceID: 5392}
+      Script: {instanceID: 5394}
     - Class: 114
-      Script: {instanceID: 5606}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 7130}
+      Script: {instanceID: 7132}
     - Class: 114
-      Script: {instanceID: 7334}
+      Script: {instanceID: 7336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -186,27 +188,27 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1834}
     - Class: 114
-      Script: {instanceID: 2640}
+      Script: {instanceID: 2318}
     - Class: 114
-      Script: {instanceID: 2842}
+      Script: {instanceID: 2642}
     - Class: 114
-      Script: {instanceID: 3388}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 4808}
+      Script: {instanceID: 3390}
     - Class: 114
-      Script: {instanceID: 5236}
+      Script: {instanceID: 4810}
     - Class: 114
-      Script: {instanceID: 5606}
+      Script: {instanceID: 5238}
     - Class: 114
-      Script: {instanceID: 5814}
+      Script: {instanceID: 5608}
     - Class: 114
-      Script: {instanceID: 6072}
+      Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 7130}
+      Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 7334}
+      Script: {instanceID: 7132}
     - Class: 114
-      Script: {instanceID: 7854}
+      Script: {instanceID: 7336}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -322,6 +324,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnJointBreakMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b33910d67397f7feade4ef8cda7c78cd
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: CustomSFXSlider
   - hash:
       serializedVersion: 2
       Hash: 1ab136900c0edaeeb49424c852595030
@@ -1132,12 +1140,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: b33910d67397f7feade4ef8cda7c78cd
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: CustomSFXSlider
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
