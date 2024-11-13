@@ -358,6 +358,7 @@
 "Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
 "Assets/Scripts/AudioMenu.cs"
+"Assets/Scripts/ColorOfTabletChanger.cs"
 "Assets/Scripts/CustomMusicSlider.cs"
 "Assets/Scripts/CustomSFXSlider.cs"
 "Assets/Scripts/GraphicsMenu.cs"
