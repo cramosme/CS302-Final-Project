@@ -97,6 +97,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1640}
     - Class: 114
+      Script: {instanceID: 2318}
+    - Class: 114
       Script: {instanceID: 2844}
     - Class: 114
       Script: {instanceID: 3390}
@@ -111,9 +113,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 7132}
+      Script: {instanceID: 7334}
     - Class: 114
-      Script: {instanceID: 7336}
+      Script: {instanceID: 86074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -206,9 +208,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 6074}
     - Class: 114
-      Script: {instanceID: 7132}
+      Script: {instanceID: 7334}
     - Class: 114
-      Script: {instanceID: 7336}
+      Script: {instanceID: 86074}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1138,4 +1140,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/codingApps/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
+  playerPath: C:/git/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe

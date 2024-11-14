@@ -153,7 +153,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -506,8 +506,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8a29292554c7e5458fb62034037a10d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  keyBindsMenuDocument: {fileID: 965611596}
-  settingsMenuDocument: {fileID: 1608186696}
 --- !u!1 &1227994046
 GameObject:
   m_ObjectHideFlags: 0
@@ -539,7 +537,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -759,8 +757,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   musicSource: {fileID: 1227994047}
   sfxSource: {fileID: 82249180}
-  mainMenuBGM: {fileID: 8300000, guid: 5a1944aa7c9b294499f993b3c5b484f5, type: 3}
-  gameBGM: {fileID: 8300000, guid: 3aa8f1d7601a19d4c88dcaaa262c2e06, type: 3}
+  mainMenuBGM: {fileID: 8300000, guid: 3aa8f1d7601a19d4c88dcaaa262c2e06, type: 3}
+  gameBGM: {fileID: 8300000, guid: 2fb2b5c48f49da74eb9d076b874fc160, type: 3}
   sfx: {fileID: 8300000, guid: 4f4f704c9e8b3ce40ace4ca3d65dc749, type: 3}
 --- !u!4 &1327509247
 Transform:
@@ -879,7 +877,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   settingsMenuDocument: {fileID: 1608186696}
   mainMenuDocument: {fileID: 1767389675}
-  keyBindsMenuDocument: {fileID: 965611596}
   graphicsMenuDocument: {fileID: 1941648440}
   audioMenuDocument: {fileID: 1620124061}
   pauseMenuDocument: {fileID: 0}
