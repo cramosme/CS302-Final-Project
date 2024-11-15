@@ -25,3 +25,12 @@
       - All memebers were present
       - Braeden and Ahmed worked on the game side while Chris worked on the UI side
       - Kevin assisted with game along with creation of PowerPoint for presentation on 11/14/24
+
+11/13/24 9:00 am to 12:30 pm (3 hours and 30 min)
+      - All members were present
+      - UI was completed and puzzle clues were added to the room
+
+11/15/24 9:00 am to 1:00 pm (4 hours)
+      - Braeden, Chris, and Ahmed were present
+      - Torches were added, colors of books were changed to provide the answer to the puzzle, and
+      - buttons were made interactable using raytracing
