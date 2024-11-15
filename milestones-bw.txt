@@ -9,7 +9,7 @@ Individual Task:
   - I specifically created the file called SlidingDoor.cs under Fractured Paths-Assets
 
 Time Log:
-  Total Time: 23 hours and 10 minutes (excluding lab time)
+  Total Time: 27 hours and 10 minutes (excluding lab time)
     09/23/24 - 10:10am - 11:30am
        - researched puzzle games/downloaded Unity and set up software
     09/23/24 - 12:45 pm - 1:20 pm
@@ -34,6 +34,9 @@ Time Log:
        - Began developing the room where our first puzzle will reside
     11/11/24 - 9:00 am to 1:20 pm
        - Drew all of the viking rune symbols, made them transparent, and inserting the created assets onto their corresponding buttons
+    11/15/24 - 9:00 am to 1:00 pm
+       - Worked with Chirs and Ahmed to make the buttons interactable. We did this by using raytracing and we also created an outline
+       - for when the player is hovering over the interactable object
 
 Rubric (40 points):
   - We have a functioning puzzle (10 points)
