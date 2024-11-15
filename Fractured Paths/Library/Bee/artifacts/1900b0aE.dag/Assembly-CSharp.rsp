@@ -357,14 +357,18 @@
 "Assets/BrokenVector/LowPolyDungeon/Demo Scenes/ScreenshotMaker.cs"
 "Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
 "Assets/Polytope Studio/Lowpoly_Demos/Environment_Free/Helpers/MouseLook.cs"
+"Assets/QuickOutline/Scripts/Outline.cs"
 "Assets/Scripts/AudioManager.cs"
 "Assets/Scripts/AudioMenu.cs"
+"Assets/Scripts/ButtonClicker.cs"
 "Assets/Scripts/CustomMusicSlider.cs"
 "Assets/Scripts/CustomSFXSlider.cs"
 "Assets/Scripts/GraphicsMenu.cs"
+"Assets/Scripts/Interactables.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/PauseMenu.cs"
 "Assets/Scripts/playerController.cs"
+"Assets/Scripts/PlayerInteraction.cs"
 "Assets/Scripts/SettingsMenu.cs"
 -langversion:9.0
 /deterministic

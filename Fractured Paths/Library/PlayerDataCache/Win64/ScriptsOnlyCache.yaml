@@ -3,11 +3,15 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - AudioManager
     - AudioMenu
+    - ButtonClicker
     - CustomMusicSlider
     - CustomSFXSlider
     - GraphicsMenu
+    - Interactables
     - MainMenu
+    - Outline
     - PauseMenu
+    - PlayerInteraction
     - SettingsMenu
     - playerController
     Unity.Rider.Editor.dll:
@@ -24,7 +28,10 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Image
   serializedClasses:
     UnityEngine.CoreModule:
+    - UnityEngine.Events.ArgumentCache
     - UnityEngine.Events.PersistentCallGroup
+    - UnityEngine.Events.PersistentListenerMode
+    - UnityEngine.Events.UnityEvent
     UnityEngine.UI:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
     UnityEngine.UIElementsModule:
@@ -45,7 +52,43 @@ ScriptsOnlyBuild:
     - UnityEngine.UIElements.UxmlRootElementFactory
     - UnityEngine.UIElements.VisualElement/UxmlFactory
     - UnityEngine.UIElements.VisualElementAsset
-  methodsToPreserve: []
+  methodsToPreserve:
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   sceneClasses:
     Assets/Scenes/GameScene.unity:
     - Class: 1
@@ -85,37 +128,45 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 626}
-    - Class: 114
-      Script: {instanceID: 628}
-    - Class: 114
       Script: {instanceID: 630}
     - Class: 114
-      Script: {instanceID: 652}
+      Script: {instanceID: 632}
     - Class: 114
-      Script: {instanceID: 654}
+      Script: {instanceID: 634}
     - Class: 114
-      Script: {instanceID: 1640}
+      Script: {instanceID: 656}
     - Class: 114
-      Script: {instanceID: 2318}
+      Script: {instanceID: 658}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 1580}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 1582}
     - Class: 114
-      Script: {instanceID: 4810}
+      Script: {instanceID: 1628}
     - Class: 114
-      Script: {instanceID: 5382}
+      Script: {instanceID: 1650}
+    - Class: 114
+      Script: {instanceID: 2328}
+    - Class: 114
+      Script: {instanceID: 2854}
+    - Class: 114
+      Script: {instanceID: 3400}
+    - Class: 114
+      Script: {instanceID: 4820}
+    - Class: 114
+      Script: {instanceID: 5006}
     - Class: 114
       Script: {instanceID: 5394}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 5406}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 7334}
+      Script: {instanceID: 5828}
     - Class: 114
-      Script: {instanceID: 86074}
+      Script: {instanceID: 7346}
+    - Class: 114
+      Script: {instanceID: 24318}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -178,39 +229,39 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 626}
-    - Class: 114
-      Script: {instanceID: 628}
-    - Class: 114
       Script: {instanceID: 630}
     - Class: 114
-      Script: {instanceID: 652}
+      Script: {instanceID: 632}
     - Class: 114
-      Script: {instanceID: 654}
+      Script: {instanceID: 634}
     - Class: 114
-      Script: {instanceID: 1834}
+      Script: {instanceID: 656}
     - Class: 114
-      Script: {instanceID: 2318}
+      Script: {instanceID: 658}
     - Class: 114
-      Script: {instanceID: 2642}
+      Script: {instanceID: 1844}
     - Class: 114
-      Script: {instanceID: 2844}
+      Script: {instanceID: 2328}
     - Class: 114
-      Script: {instanceID: 3390}
+      Script: {instanceID: 2652}
     - Class: 114
-      Script: {instanceID: 4810}
+      Script: {instanceID: 2854}
     - Class: 114
-      Script: {instanceID: 5238}
+      Script: {instanceID: 3400}
     - Class: 114
-      Script: {instanceID: 5608}
+      Script: {instanceID: 4820}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 6074}
+      Script: {instanceID: 5620}
     - Class: 114
-      Script: {instanceID: 7334}
+      Script: {instanceID: 5828}
     - Class: 114
-      Script: {instanceID: 86074}
+      Script: {instanceID: 6086}
+    - Class: 114
+      Script: {instanceID: 7346}
+    - Class: 114
+      Script: {instanceID: 24318}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -232,10 +283,28 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: 5c55f71759e408bfd4371e8a17af42fb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerInteraction
+  - hash:
+      serializedVersion: 2
+      Hash: 97678b0a852e2a8bf3a5e8cf7576bb8b
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonClicker
+  - hash:
+      serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UIElements
     className: PanelRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: a8e3571aa4f5e95dad37cd05688ab442
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Outline
   - hash:
       serializedVersion: 2
       Hash: dd9dda1dfd39e605c49e72003342ef5d
@@ -764,6 +833,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f80e28e2c1b729aab34d29e7d5240e24
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: Interactables
   - hash:
       serializedVersion: 2
       Hash: 191cd500c627cd6682ef6f70b8e47f2c
