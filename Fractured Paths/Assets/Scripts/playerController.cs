@@ -69,15 +69,10 @@ public class playerController : MonoBehaviour
         else
         {
             audioWalk.enabled = isMovingOnGround;
-            //audioWalk.pitch = Input.GetKey(KeyCode.LeftShift) ? 1.75f : 1f;
         }
     }
-        void FixedUpdate()
+   void FixedUpdate()
     {
-        // newVelocity = Vector3.up * rigidBody.velocity.y;
-        // newVelocity.x = Input.GetAxis("Horizontal") * speed;
-        // newVelocity.z = Input.GetAxis("Vertical") * speed;
-
         if(Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit, 1f))
             isGrounded = true;
         else isGrounded = false;
@@ -120,6 +115,17 @@ public class playerController : MonoBehaviour
         isGrounded = false;
         isJumping = true;
     }
+
+   public void SetSpeed(float newSpeed)
+   {
+      speed = newSpeed;
+      // audioWalk.pitch = newSpeed/2;
+   }
+
+   public void SetJumpSpeed(float newJumpSpeed)
+   {
+      jumpSpeed = newJumpSpeed;
+   }
 
 }
 

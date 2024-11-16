@@ -138,35 +138,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 658}
     - Class: 114
-      Script: {instanceID: 1580}
+      Script: {instanceID: 1624}
     - Class: 114
-      Script: {instanceID: 1582}
+      Script: {instanceID: 1646}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 2324}
     - Class: 114
-      Script: {instanceID: 1650}
+      Script: {instanceID: 2430}
     - Class: 114
-      Script: {instanceID: 2328}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 3400}
+      Script: {instanceID: 4818}
     - Class: 114
-      Script: {instanceID: 4820}
+      Script: {instanceID: 5004}
     - Class: 114
-      Script: {instanceID: 5006}
+      Script: {instanceID: 5392}
     - Class: 114
-      Script: {instanceID: 5394}
+      Script: {instanceID: 5404}
     - Class: 114
-      Script: {instanceID: 5406}
+      Script: {instanceID: 5618}
     - Class: 114
-      Script: {instanceID: 5620}
+      Script: {instanceID: 5806}
     - Class: 114
       Script: {instanceID: 5828}
     - Class: 114
       Script: {instanceID: 7346}
     - Class: 114
-      Script: {instanceID: 24318}
+      Script: {instanceID: 86904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -239,21 +239,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 658}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 1840}
     - Class: 114
-      Script: {instanceID: 2328}
+      Script: {instanceID: 2324}
     - Class: 114
-      Script: {instanceID: 2652}
+      Script: {instanceID: 2650}
     - Class: 114
-      Script: {instanceID: 2854}
+      Script: {instanceID: 2852}
     - Class: 114
-      Script: {instanceID: 3400}
+      Script: {instanceID: 3398}
     - Class: 114
-      Script: {instanceID: 4820}
+      Script: {instanceID: 4818}
     - Class: 114
-      Script: {instanceID: 5250}
+      Script: {instanceID: 5248}
     - Class: 114
-      Script: {instanceID: 5620}
+      Script: {instanceID: 5618}
     - Class: 114
       Script: {instanceID: 5828}
     - Class: 114
@@ -261,7 +261,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7346}
     - Class: 114
-      Script: {instanceID: 24318}
+      Script: {instanceID: 86904}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -281,18 +281,6 @@ ScriptsOnlyBuild:
     - Class: 245
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: 5c55f71759e408bfd4371e8a17af42fb
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerInteraction
-  - hash:
-      serializedVersion: 2
-      Hash: 97678b0a852e2a8bf3a5e8cf7576bb8b
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: ButtonClicker
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -343,7 +331,7 @@ ScriptsOnlyBuild:
     className: Shadow
   - hash:
       serializedVersion: 2
-      Hash: 7bc57c16ecee72487eaa27e03e1b5d4f
+      Hash: 3dafd1c297ecf1ef72f982ab9d7f7bbe
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: AudioManager
@@ -407,6 +395,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI
     namespaceName: UnityEngine.UI
     className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 3a2ace7b57687b896eb38f79e413ac31
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: ButtonClicker
   - hash:
       serializedVersion: 2
       Hash: 1321993db8249e1e05e1e0492b2bbdc3
@@ -949,6 +943,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 5c55f71759e408bfd4371e8a17af42fb
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerInteraction
+  - hash:
+      serializedVersion: 2
       Hash: ba626004a0e9e950b31262c5d258d1ab
     assemblyName: Assembly-CSharp
     namespaceName: 
@@ -1215,4 +1215,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/git/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
+  playerPath: C:/codingApps/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe

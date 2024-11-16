@@ -5,11 +5,13 @@ using System.Collections;
 public class AudioManager : MonoBehaviour
 {
     [SerializeField] AudioSource musicSource;
-    [SerializeField] AudioSource sfxSource;
+    [SerializeField] AudioSource puzzleSFXSource;
 
     public AudioClip mainMenuBGM;
     public AudioClip gameBGM;
-    public AudioClip sfx;
+
+    public AudioClip winSFX;
+    public AudioClip loseSFX;
 
     public static AudioManager instance;
     private void Awake()
@@ -32,11 +34,7 @@ public class AudioManager : MonoBehaviour
         SetBGMForScene();
         musicSource.Play();
 
-        if(IsInMainMenu())
-        {
-            StopSFX();
-        }
-        else
+        if(!IsInMainMenu())
         {
             StartCoroutine(AddDelay());
         }
@@ -53,11 +51,7 @@ public class AudioManager : MonoBehaviour
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         SetBGMForScene();
-        if (IsInMainMenu())
-        {
-            StopSFX();
-        }
-        else
+        if (!IsInMainMenu())
         {
             StartCoroutine(AddDelay());
         }
@@ -78,16 +72,6 @@ public class AudioManager : MonoBehaviour
         return SceneManager.GetActiveScene().name == "MainMenuScene";
     }
 
-    public void StopSFX()
-    {
-        sfxSource.Stop();
-    }
-
-    public void PlaySFX()
-    {
-        sfxSource.Play();
-    }
-
     public void PauseMusic()
     {
         musicSource.Pause();
@@ -96,5 +80,16 @@ public class AudioManager : MonoBehaviour
     public void ResumeMusic()
     {
         musicSource.UnPause();
+    }
+
+    public void PlaySound(AudioClip clip)
+    {
+      // Check if the audio source is currently playing
+      if (puzzleSFXSource.isPlaying)
+      {
+         puzzleSFXSource.Stop();
+      }
+      puzzleSFXSource.clip = clip;
+      puzzleSFXSource.Play();
     }
 }

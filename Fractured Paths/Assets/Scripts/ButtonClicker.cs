@@ -3,6 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.Events;
 
@@ -21,6 +22,7 @@ public class ButtonClicker : MonoBehaviour
     [SerializeField] GameObject bButton;
     [SerializeField] GameObject clawButton;
     [SerializeField] GameObject door;
+    [SerializeField] playerController player;
 
     public Camera newcamera;
 
@@ -122,7 +124,11 @@ public class ButtonClicker : MonoBehaviour
             }
             if (count == correctOrder.Count) // They all matched so unlock door
             {
-                door.transform.position = new Vector3(door.transform.rotation.x, door.transform.rotation.y + 275, door.transform.rotation.z);
+                door.transform.rotation = Quaternion.Euler(0, 270, 0);
+                AudioManager.instance.PlaySound(AudioManager.instance.winSFX);
+               //  player.SetSpeed(10f);
+               //  player.SetJumpSpeed(10f);
+                playerOrder.Clear();
             }
             else
             {
@@ -131,6 +137,7 @@ public class ButtonClicker : MonoBehaviour
                     butt.transform.position = new Vector3(butt.transform.position.x, butt.transform.position.y + .125f, butt.transform.position.z);
                 }
                 playerOrder.Clear();
+                AudioManager.instance.PlaySound(AudioManager.instance.loseSFX);
             }
         }
     }

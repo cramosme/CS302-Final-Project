@@ -17,9 +17,6 @@ public class PlayerInteraction : MonoBehaviour
     void Update()
     {
         CheckInteraction();
-        if( Input.GetMouseButtonDown(0)){
-            Debug.Log("Pressed Left-click.");
-        }
     }
 
     void CheckInteraction()
