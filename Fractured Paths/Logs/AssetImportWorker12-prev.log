@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.3/staging' branch; Version is '2022.3.47f1 (88c277b85d21) revision 8962679'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 32555 MB
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16103 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Unity.exe
 -name
 AssetImportWorker12
 -projectPath
-C:/codingApps/CS302-Final-Project/Fractured Paths
+C:/git/CS302-Final-Project/Fractured Paths
 -logFile
 Logs/AssetImportWorker12.log
 -srvPort
-62535
-Successfully changed project path to: C:/codingApps/CS302-Final-Project/Fractured Paths
-C:/codingApps/CS302-Final-Project/Fractured Paths
+56689
+Successfully changed project path to: C:/git/CS302-Final-Project/Fractured Paths
+C:/git/CS302-Final-Project/Fractured Paths
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,69 +49,67 @@ C:/codingApps/CS302-Final-Project/Fractured Paths
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21856]  Target information:
+Player connection [47512]  Target information:
 
-Player connection [21856]  * "[IP] 192.168.1.73 [Port] 0 [Flags] 2 [Guid] 3487609600 [EditorId] 3487609600 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-89UL5UD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [47512]  * "[IP] 216.96.194.12 [Port] 0 [Flags] 2 [Guid] 2159884573 [EditorId] 2159884573 [Version] 1048832 [Id] WindowsEditor(7,Crillo_Laptop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [21856] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [21856] Host joined alternative multi-casting on [225.0.0.222:34997]...
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 25.41 ms, found 3 plugins.
+Player connection [47512] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [47512] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+Refreshing native plugins compatible for Editor in 5.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.47f1 (88c277b85d21)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/codingApps/CS302-Final-Project/Fractured Paths/Assets
+[Subsystems] Discovering subsystems at path C:/git/CS302-Final-Project/Fractured Paths/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3070 Ti (ID=0x2482)
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28e0)
     Vendor:   NVIDIA
-    VRAM:     8018 MB
+    VRAM:     7957 MB
     Driver:   32.0.15.6614
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56836
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56816
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.024145 seconds.
-- Loaded All Assemblies, in  0.601 seconds
+Registered in 0.005762 seconds.
+- Loaded All Assemblies, in  0.458 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.469 seconds
-Domain Reload Profiling: 1063ms
-	BeginReloadAssembly (187ms)
+- Finished resetting the current domain, in  0.227 seconds
+Domain Reload Profiling: 685ms
+	BeginReloadAssembly (180ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (107ms)
-	LoadAllAssembliesAndSetupDomain (241ms)
-		LoadAssemblies (184ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (180ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (238ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (219ms)
+		AnalyzeDomain (174ms)
+			TypeCache.Refresh (173ms)
+				TypeCache.ScanAssembly (153ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (469ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (228ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (375ms)
+		SetupLoadedEditorAssemblies (191ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (17ms)
-			SetLoadedEditorAssemblies (9ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (266ms)
-			ProcessInitializeOnLoadMethodAttributes (81ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,55 +118,54 @@ Domain Reload Profiling: 1063ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.755 seconds
+- Loaded All Assemblies, in  0.538 seconds
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.776 seconds
-Domain Reload Profiling: 1527ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 955ms
+	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (18ms)
-	RebuildCommonClasses (39ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (51ms)
-	LoadAllAssembliesAndSetupDomain (467ms)
-		LoadAssemblies (374ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (352ms)
+		LoadAssemblies (312ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (187ms)
-				TypeCache.ScanAssembly (170ms)
-			ScanForSourceGeneratedMonoScriptInfo (16ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (777ms)
+		AnalyzeDomain (118ms)
+			TypeCache.Refresh (103ms)
+				TypeCache.ScanAssembly (94ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (419ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (618ms)
+		SetupLoadedEditorAssemblies (333ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (21ms)
-			SetLoadedEditorAssemblies (21ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (465ms)
-			ProcessInitializeOnLoadMethodAttributes (23ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.92 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.37 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3124 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 19 unused Assets / (56.5 KB). Loaded Objects now: 3612.
-Memory consumption went from 155.8 MB to 155.7 MB.
-Total: 2.982000 ms (FindLiveObjects: 0.375000 ms CreateObjectMapping: 0.105700 ms MarkObjects: 2.393600 ms  DeleteObjects: 0.106600 ms)
+Unloading 3171 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 19 unused Assets / (56.0 KB). Loaded Objects now: 3661.
+Memory consumption went from 160.7 MB to 160.6 MB.
+Total: 2.401100 ms (FindLiveObjects: 0.157000 ms CreateObjectMapping: 0.076700 ms MarkObjects: 2.071400 ms  DeleteObjects: 0.095300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -184,573 +181,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 15524.570106 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Jail_Wall_col.fbx
-  artifactKey: Guid(39ed1fd2f4eb6e0469325f551ad93844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Jail_Wall_col.fbx using Guid(39ed1fd2f4eb6e0469325f551ad93844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '41e29b4c2916d33f99dbcf94d4d8c987') in 0.153872 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.109360 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Jail_Door_Right_col.fbx
-  artifactKey: Guid(1ebe7387f994f184abf600d099296102) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Jail_Door_Right_col.fbx using Guid(1ebe7387f994f184abf600d099296102) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7ad307987270754cfb0d42f2f8d7f3a1') in 0.013855 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.068151 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Inkwell.fbx
-  artifactKey: Guid(61beba42400fa6940aad007d84cba284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Inkwell.fbx using Guid(61beba42400fa6940aad007d84cba284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd72d36fe7562b99055ed21a4385ff724') in 0.016101 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.002849 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Jail_Door_Left_col.fbx
-  artifactKey: Guid(1332c8dcbbf7c2c468f5313c1a626f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Jail_Door_Left_col.fbx using Guid(1332c8dcbbf7c2c468f5313c1a626f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd1364e300009a69829390093cfe1d31b') in 0.014539 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.438558 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Holefix_Double.fbx
-  artifactKey: Guid(07823489a1d67a240945aa421b0dde17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Holefix_Double.fbx using Guid(07823489a1d67a240945aa421b0dde17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f2c05f5fcf40dd651f120e081a895109') in 0.024154 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.240403 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_TCrossing.fbx
-  artifactKey: Guid(d68104bcc3c497440a2cb8a67c7295ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_TCrossing.fbx using Guid(d68104bcc3c497440a2cb8a67c7295ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1283d721bcbf2487b586a5848bbcc5a8') in 0.018604 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000682 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Hallway_toStaircase_Top_col.fbx
-  artifactKey: Guid(f5bb8cc8eea4aaf42b2a73db8b3fb1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Hallway_toStaircase_Top_col.fbx using Guid(f5bb8cc8eea4aaf42b2a73db8b3fb1ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a614f8da81c88d6653c04ab24c1ae252') in 0.017227 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.043886 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Full.fbx
-  artifactKey: Guid(181df0eb8277cec4caa4a9a66c7221de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Full.fbx using Guid(181df0eb8277cec4caa4a9a66c7221de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b1f3cbcc41b7d974a87a24b6bac3b910') in 0.015608 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Quarter.fbx
-  artifactKey: Guid(1b81800f0a37d564196769a09fb61d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Quarter.fbx using Guid(1b81800f0a37d564196769a09fb61d6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7528b1ea9d6f5443addf67341a383da5') in 0.016812 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.354469 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Curve_Long.fbx
-  artifactKey: Guid(110316f0afd06df48ac55aee949522bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Curve_Long.fbx using Guid(110316f0afd06df48ac55aee949522bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dbbfde288c8f0eda3ccb222784b4167b') in 0.022999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.054773 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/FloorTIle.fbx
-  artifactKey: Guid(20f2ea214cfe0d748b1b4b8ad965af69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/FloorTIle.fbx using Guid(20f2ea214cfe0d748b1b4b8ad965af69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4c97855407e7dd522d6acadb5f738e8b') in 0.013481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.002771 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Goblet.fbx
-  artifactKey: Guid(70f89a7157d12f24faa9cc7887dea3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Goblet.fbx using Guid(70f89a7157d12f24faa9cc7887dea3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dea9595b83b1030ee2cf4cb14d5dc5e2') in 0.014797 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.314441 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Wall_Window.fbx
-  artifactKey: Guid(85215ddb67dce05478420137b344281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Wall_Window.fbx using Guid(85215ddb67dce05478420137b344281d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9787dcb03386a811ee4c894c19b3ac6a') in 0.017851 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.147783 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Straight_Half.fbx
-  artifactKey: Guid(0fa0fbfa9a188bd4786d33725057196c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Straight_Half.fbx using Guid(0fa0fbfa9a188bd4786d33725057196c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0c583c165c05b2bc44cef82d481ebee7') in 0.017367 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.351742 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Passage_Wood_col.fbx
-  artifactKey: Guid(adf57738d0549b442a3df5cc2df012dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Passage_Wood_col.fbx using Guid(adf57738d0549b442a3df5cc2df012dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '5083f9ee9b05d84180df95db8fa9f8cf') in 0.020293 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.407158 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_Stairs_Left_col.fbx
-  artifactKey: Guid(d0b89d21f3483fe47a1e1065c5bfae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_Stairs_Left_col.fbx using Guid(d0b89d21f3483fe47a1e1065c5bfae48) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8d5ee2d0f49b0103ddf6799471014a16') in 0.015291 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.061096 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Corner_col.fbx
-  artifactKey: Guid(f35dd40aa5a5cdf4d8f98701504f63bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Corner_col.fbx using Guid(f35dd40aa5a5cdf4d8f98701504f63bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '08473e827adbcf1bd533a264f494c13d') in 0.011401 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.006626 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_col.fbx
-  artifactKey: Guid(f4079b0aba0b260459fe9242fe0afbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Wall_col.fbx using Guid(f4079b0aba0b260459fe9242fe0afbbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b86aa45eb1e5ff0068e0044295c475cd') in 0.013744 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.020480 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Corner_Inverted_col.fbx
-  artifactKey: Guid(f891dad56c0c8ae4bbf7d07300646ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Corner_Inverted_col.fbx using Guid(f891dad56c0c8ae4bbf7d07300646ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '490c07b6c910a9b0c5051c11eb80211e') in 0.011816 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.005039 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Center_Stairs_col.fbx
-  artifactKey: Guid(8b7dca003e8c95446a83b7d9cc42c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Hall_Center_Stairs_col.fbx using Guid(8b7dca003e8c95446a83b7d9cc42c889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '065aeb1f085e4428acd2c43317350e23') in 0.012770 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.372105 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Center_col.fbx
-  artifactKey: Guid(04426e3221814b14b9d01702e9e3037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Center_col.fbx using Guid(04426e3221814b14b9d01702e9e3037a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '08f257bfb598859a27a46505a4de4a2d') in 0.015983 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.003799 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Corner_Flat_col.fbx
-  artifactKey: Guid(3b0b64465b1a2f0408de1a104df0325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Corner_Flat_col.fbx using Guid(3b0b64465b1a2f0408de1a104df0325b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f7ee7eff4dc809094f46200d33548173') in 0.014773 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.311373 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_CornerCrossing_col.fbx
-  artifactKey: Guid(7a2dd36deda6ffe4ea36aef171a456fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_CornerCrossing_col.fbx using Guid(7a2dd36deda6ffe4ea36aef171a456fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '55b5bb6c10646d75dd6657a948c5f3c6') in 0.017567 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.003854 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Border_Flat_col.fbx
-  artifactKey: Guid(f228f9f7af3807f4cb321dc8729bec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Custom_Border_Flat_col.fbx using Guid(f228f9f7af3807f4cb321dc8729bec0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '726a75473b6a61f29ab92afc89bcdf6d') in 0.014760 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.044490 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Big_to_Custom_col.fbx
-  artifactKey: Guid(42e34643e8222274e9215d99f626c1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Big_to_Custom_col.fbx using Guid(42e34643e8222274e9215d99f626c1db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'cf66d5dcb684c28e619b62fa9e232b67') in 0.013014 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.002986 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Big_Window_col.fbx
-  artifactKey: Guid(39db63f9ec7d52f448fed9e4d861c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Big_Window_col.fbx using Guid(39db63f9ec7d52f448fed9e4d861c210) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7b7e1abf16689129b7b6681d250a18f8') in 0.015095 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.351355 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Drinkinghorn.fbx
-  artifactKey: Guid(bff0d08e50f52a145bc100bcf4c67b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Drinkinghorn.fbx using Guid(bff0d08e50f52a145bc100bcf4c67b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '763ff1c7401caeb8a902b4df955398c3') in 0.016685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000729 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Big_Passage_col.fbx
-  artifactKey: Guid(9534b9817d800ec4cbb6e3c27b4e39de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Dungeon_Big_Passage_col.fbx using Guid(9534b9817d800ec4cbb6e3c27b4e39de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e6639230d7e06e8bc957008f4850a427') in 0.016041 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.038144 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Door_Wooden_Round_Right.fbx
-  artifactKey: Guid(d2215445189a960468755ef109efe3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Door_Wooden_Round_Right.fbx using Guid(d2215445189a960468755ef109efe3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7c965df1c796ab5607d090c7631d82f1') in 0.024966 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.294952 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Door_Iron_Right_col.fbx
-  artifactKey: Guid(1a11b99e6435888469582d69e576670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Door_Iron_Right_col.fbx using Guid(1a11b99e6435888469582d69e576670a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b73e2c9e0a0684cab461edd3c6990188') in 0.013885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.002823 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Door_Wooden_Right_col.fbx
-  artifactKey: Guid(cafad2acfc826be42a8b41f005b844b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Door_Wooden_Right_col.fbx using Guid(cafad2acfc826be42a8b41f005b844b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bf2034578403c1d93a0325a361692aa0') in 0.014891 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.044864 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Desk.fbx
-  artifactKey: Guid(5b206fed98dd6d041b1c804df7d42011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Desk.fbx using Guid(5b206fed98dd6d041b1c804df7d42011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c80aeed40d079687c90164f4cacaf20d') in 0.027368 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 12
-========================================================================
-Received Import Request.
-  Time since last request: 0.026931 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/ChestSmall.fbx
-  artifactKey: Guid(18b40f6fb9474fc49b1aca2ad7393297) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/ChestSmall.fbx using Guid(18b40f6fb9474fc49b1aca2ad7393297) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '228ecc1bdd8a431408c9990203a17550') in 0.013803 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.003823 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/CrystalBall.fbx
-  artifactKey: Guid(f57cc7a1624e76443b185852b327936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/CrystalBall.fbx using Guid(f57cc7a1624e76443b185852b327936b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a9a7d8318c44a2bd02042f15e1109607') in 0.031253 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 1.217698 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Small.fbx
-  artifactKey: Guid(0dbe52e7e22a05648ad36efdc78ea7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Small.fbx using Guid(0dbe52e7e22a05648ad36efdc78ea7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '99727d0c7e3020aab2634c91eedb4c58') in 0.016234 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.064366 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Candlestick_Wall.fbx
-  artifactKey: Guid(c04865966f8d8ae409e19627bacc4ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Candlestick_Wall.fbx using Guid(c04865966f8d8ae409e19627bacc4ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '33105d98e7a76572e98133449dab5a05') in 0.014579 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.001365 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Empty.fbx
-  artifactKey: Guid(0b6871c7b1cb6a244a438bb3ba423e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Empty.fbx using Guid(0b6871c7b1cb6a244a438bb3ba423e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '113ad91376b1bb6d86db571d07258e71') in 0.016372 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.018605 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Bread.fbx
-  artifactKey: Guid(66ff87ab9380a334bacec924d01224a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Bread.fbx using Guid(66ff87ab9380a334bacec924d01224a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '508408656277158878a579f18bb89855') in 0.013377 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.781784 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Small_DeepRed.fbx
-  artifactKey: Guid(84c3a15b577df7648905fcbe72f4c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Small_DeepRed.fbx using Guid(84c3a15b577df7648905fcbe72f4c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '609b39987daaf55244e95f8f59bb8122') in 0.023164 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.423917 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Brown.fbx
-  artifactKey: Guid(dc2941d78abd1554c898c60a773f4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Brown.fbx using Guid(dc2941d78abd1554c898c60a773f4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'ca0aa2716bcdf6929241f7ce7172e1b5') in 0.019562 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.029234 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Bench.fbx
-  artifactKey: Guid(aa574de3686174c48a61ce1af575a075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Bench.fbx using Guid(aa574de3686174c48a61ce1af575a075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '020ad4328de4bbc6c46fbe48dba97a91') in 0.017582 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.403915 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Wall_Var3.fbx
-  artifactKey: Guid(4c4fe4f8da5fdef4eb5aa36563046edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Wall_Var3.fbx using Guid(4c4fe4f8da5fdef4eb5aa36563046edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dbdb10bfe1a9a8c1e95e7b93db224684') in 0.021349 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.035090 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Var2.fbx
-  artifactKey: Guid(b81e318bd6b86a746bb627dcbc0c51b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Var2.fbx using Guid(b81e318bd6b86a746bb627dcbc0c51b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'dff6c87144b0f1964c3165bafc859283') in 0.032300 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 14
-========================================================================
-Received Import Request.
-  Time since last request: 0.314706 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Barrel_Open.fbx
-  artifactKey: Guid(2d45f032ced62804ea8fd7b2ebb7f461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Barrel_Open.fbx using Guid(2d45f032ced62804ea8fd7b2ebb7f461) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bc369caefbb8e71b40d16d6c517b4853') in 0.019138 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.062292 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Balcony_Post_col.fbx
-  artifactKey: Guid(ae840dccc4678c741a02d81550c08507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Colliders/Tiles/Balcony_Post_col.fbx using Guid(ae840dccc4678c741a02d81550c08507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7563c6b6deaaba091f8b90efb3ea5c96') in 0.013226 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.003894 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Barrel_Big.fbx
-  artifactKey: Guid(40f5762be4fcf5f4fa9151e752d38d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Barrel_Big.fbx using Guid(40f5762be4fcf5f4fa9151e752d38d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '63140bfefc01f654a3036f972424e720') in 0.020778 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.063729 seconds.
-  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Amphora_Stand.fbx
-  artifactKey: Guid(e21b6c9b113d50a4b865c5a99ce0a58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Amphora_Stand.fbx using Guid(e21b6c9b113d50a4b865c5a99ce0a58e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '0ffd951c65aeb2ae2fc59f7f4c658c6d') in 0.021860 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 10
-========================================================================
 Received Prepare
-Caller must complete domain reload
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.889 seconds
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.712 seconds
-Domain Reload Profiling: 2593ms
-	BeginReloadAssembly (286ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (103ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (83ms)
-	LoadAllAssembliesAndSetupDomain (396ms)
-		LoadAssemblies (566ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (28ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (20ms)
-	FinalizeReload (1713ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (838ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (12ms)
-			SetLoadedEditorAssemblies (3ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (124ms)
-			ProcessInitializeOnLoadAttributes (639ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
-			AfterProcessingInitializeOnLoad (13ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (24ms)
-Refreshing native plugins compatible for Editor in 5.92 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3100 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 13 unused Assets / (27.6 KB). Loaded Objects now: 3627.
-Memory consumption went from 155.2 MB to 155.2 MB.
-Total: 3.275500 ms (FindLiveObjects: 0.395300 ms CreateObjectMapping: 0.119000 ms MarkObjects: 2.717100 ms  DeleteObjects: 0.042900 ms)
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 3661.
+Memory consumption went from 104.0 MB to 104.0 MB.
+Total: 2.378600 ms (FindLiveObjects: 0.184400 ms CreateObjectMapping: 0.078600 ms MarkObjects: 2.096400 ms  DeleteObjects: 0.018500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -766,6 +203,598 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.788 seconds
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.252 seconds
+Domain Reload Profiling: 2035ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (97ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (33ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1253ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (454ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3135 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 14 unused Assets / (28.5 KB). Loaded Objects now: 3664.
+Memory consumption went from 152.6 MB to 152.5 MB.
+Total: 2.359600 ms (FindLiveObjects: 0.172100 ms CreateObjectMapping: 0.085700 ms MarkObjects: 2.067100 ms  DeleteObjects: 0.031500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 445595.952077 seconds.
+  path: Assets/Materials/brown.mat
+  artifactKey: Guid(5b840ba8f8d886047a67d642458d6a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/brown.mat using Guid(5b840ba8f8d886047a67d642458d6a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f19f4d6e4be6477b3381ae9b9a8b49e0') in 0.133326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 50.417322 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Bag.fbx
+  artifactKey: Guid(c97a961f8ab237a4785b57abd59514f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Bag.fbx using Guid(c97a961f8ab237a4785b57abd59514f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'c73e4fc02120aea5ebf06c0257c753ef') in 0.047046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Beaker_Full_Var1.fbx
+  artifactKey: Guid(934778927de152a45a53d7f36b9849b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Beaker_Full_Var1.fbx using Guid(934778927de152a45a53d7f36b9849b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6a5b452a0b23cd096918298a25f08de5') in 0.030454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Red.fbx
+  artifactKey: Guid(9028aa2abf4ff9d45a5c341199180134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Red.fbx using Guid(9028aa2abf4ff9d45a5c341199180134) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '1423ba493eef58c89626aed62c6f2b62') in 0.015827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Beaker_Empty.fbx
+  artifactKey: Guid(affe7203ad95ac04884cd98a039abd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Beaker_Empty.fbx using Guid(affe7203ad95ac04884cd98a039abd27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5f2bd7f445f2f31d25b653c330cd6052') in 0.012992 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Green.fbx
+  artifactKey: Guid(86eb514168a2b5343a94c3b241459305) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Green.fbx using Guid(86eb514168a2b5343a94c3b241459305) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f0e1979ac46474cd14f6d59f0b4e865d') in 0.012796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Bread.fbx
+  artifactKey: Guid(66ff87ab9380a334bacec924d01224a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Bread.fbx using Guid(66ff87ab9380a334bacec924d01224a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ca6429a0152a5ecc38cd9be38abd4e72') in 0.014101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Small.fbx
+  artifactKey: Guid(0dbe52e7e22a05648ad36efdc78ea7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Small.fbx using Guid(0dbe52e7e22a05648ad36efdc78ea7e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8ab5959bef7baac92905b11f1ed6a374') in 0.012827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Small_Stand.fbx
+  artifactKey: Guid(16a4a317255b8c849a35489a1d7be83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Small_Stand.fbx using Guid(16a4a317255b8c849a35489a1d7be83c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0643c48017b85c83bf2a445589855450') in 0.012198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Firewood.fbx
+  artifactKey: Guid(5f9ecee8406997d4e8e4120512c25f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Firewood.fbx using Guid(5f9ecee8406997d4e8e4120512c25f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '74545c109b6ccb1297d04e554cbe5f53') in 0.015977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Drinkinghorn.fbx
+  artifactKey: Guid(bff0d08e50f52a145bc100bcf4c67b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Drinkinghorn.fbx using Guid(bff0d08e50f52a145bc100bcf4c67b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e5cdde5c8d43e47d30514779a08f679b') in 0.015820 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Open.fbx
+  artifactKey: Guid(6f4b9214b0fbf6749a2aa0d49b616c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Open.fbx using Guid(6f4b9214b0fbf6749a2aa0d49b616c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b64e4b1ac61835cdcd72be0fa33a6f67') in 0.013422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Small_Green.fbx
+  artifactKey: Guid(e55a876c8839b57418359bcec709a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Small_Green.fbx using Guid(e55a876c8839b57418359bcec709a948) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e7a24ad1259bb39b655a7b53db1127b5') in 0.013523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Empty.fbx
+  artifactKey: Guid(0b6871c7b1cb6a244a438bb3ba423e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Cauldron_Empty.fbx using Guid(0b6871c7b1cb6a244a438bb3ba423e06) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '50596738c7dbf42c417f21a927bee023') in 0.012735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/FirewoodStack.fbx
+  artifactKey: Guid(ab5bc92d03930514493987d17e921ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/FirewoodStack.fbx using Guid(ab5bc92d03930514493987d17e921ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'e041b962b3abe71498eb0d85d63751b4') in 0.012648 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Small_DeepRed.fbx
+  artifactKey: Guid(84c3a15b577df7648905fcbe72f4c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Small_DeepRed.fbx using Guid(84c3a15b577df7648905fcbe72f4c5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '37214d0f850a240d9b03c3ae03c24adc') in 0.013726 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Bowl.fbx
+  artifactKey: Guid(0bfc3f0c3caabd54994a2b291a3b9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Bowl.fbx using Guid(0bfc3f0c3caabd54994a2b291a3b9637) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '079f6b5e72122eb6e95d8066387629e3') in 0.015127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Big_Brown.fbx
+  artifactKey: Guid(54c2100317f765442a1f247c7d09ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Big_Brown.fbx using Guid(54c2100317f765442a1f247c7d09ccf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ebd10aba540fc25234356edf6ffd8396') in 0.018295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Brown.fbx
+  artifactKey: Guid(dc2941d78abd1554c898c60a773f4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_Brown.fbx using Guid(dc2941d78abd1554c898c60a773f4dad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f08591515cb1e66ef810625475ae23e9') in 0.015573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_DeepRed.fbx
+  artifactKey: Guid(8842cdd23cd83c14c9425c0ae07507c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Book_DeepRed.fbx using Guid(8842cdd23cd83c14c9425c0ae07507c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '33522e5f12a145fa33fd278b214a8747') in 0.017134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 3.277479 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Barrel_Big.fbx
+  artifactKey: Guid(40f5762be4fcf5f4fa9151e752d38d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Barrel_Big.fbx using Guid(40f5762be4fcf5f4fa9151e752d38d16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9c622aaf09531d591231e6cde4e67b4f') in 0.017935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.004074 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Carpet_Green.fbx
+  artifactKey: Guid(2db4b38c5968c334ba9ebd8d33dda174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Carpet_Green.fbx using Guid(2db4b38c5968c334ba9ebd8d33dda174) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '0769fc82f85c77425cbb6976943db68f') in 0.017476 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Chest.fbx
+  artifactKey: Guid(1bf63c0899d49114e9e0a11b3dbb5187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Chest.fbx using Guid(1bf63c0899d49114e9e0a11b3dbb5187) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd18a6a746fc6120c04bce4fe35a2df66') in 0.016828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/ChestSmall_Lid.fbx
+  artifactKey: Guid(b51d8a270324c344fbb47301c11f3cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/ChestSmall_Lid.fbx using Guid(b51d8a270324c344fbb47301c11f3cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '64daa296b1cb6654d685173315bb2b6e') in 0.020036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Desk.fbx
+  artifactKey: Guid(5b206fed98dd6d041b1c804df7d42011) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/Desk.fbx using Guid(5b206fed98dd6d041b1c804df7d42011) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '4bd836dd4ef92950aa9c71ab10757197') in 0.036850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Furniture/CoatHook_Full.fbx
+  artifactKey: Guid(46f013e75e71ce245a5b4b18ab216626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Furniture/CoatHook_Full.fbx using Guid(46f013e75e71ce245a5b4b18ab216626) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b4827988432b2e9d4cbd61a570de0d28') in 0.023328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.249132 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Candlestick_Triple.fbx
+  artifactKey: Guid(9113a0b797edd634c876e92de58f44a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Lamps/Candlestick_Triple.fbx using Guid(9113a0b797edd634c876e92de58f44a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd493c2fad423ed90bf110aa47a486eb3') in 0.017143 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.143429 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Balcony_Railing.fbx
+  artifactKey: Guid(b1cfd52e76785524c8551b29a7d4fd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Balcony_Railing.fbx using Guid(b1cfd52e76785524c8551b29a7d4fd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ee1d478d6669fa1ae4289c71888201af') in 0.013007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001869 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Var1.fbx
+  artifactKey: Guid(75953d580a08e7649bf4b767832e157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Var1.fbx using Guid(75953d580a08e7649bf4b767832e157b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '6c7b572a85f826e9cb20e05bfa53f6f8') in 0.030049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.002195 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Wall_Var3.fbx
+  artifactKey: Guid(4c4fe4f8da5fdef4eb5aa36563046edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Basement_Wall_Var3.fbx using Guid(4c4fe4f8da5fdef4eb5aa36563046edc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ef5a94b135554757e115676d3c43a178') in 0.015838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.003701 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Door_Iron_Right.fbx
+  artifactKey: Guid(90cb5084ee519bf4a99ae30668e654d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Door_Iron_Right.fbx using Guid(90cb5084ee519bf4a99ae30668e654d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8a7c8bfe1ff4b24dcdb01182c063e3fc') in 0.014093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.002900 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Door_Wooden_Round_Left.fbx
+  artifactKey: Guid(c2d7e7ca81bdbf442942799f88018308) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Door_Wooden_Round_Left.fbx using Guid(c2d7e7ca81bdbf442942799f88018308) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '9e92a37d3a760821f4edf89180eefd47') in 0.015004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.007404 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Big.fbx
+  artifactKey: Guid(65fac7cc44cc1cc4092bad889ea7cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Big.fbx using Guid(65fac7cc44cc1cc4092bad889ea7cb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b0fc150deefba284382cb06e5849e0dc') in 0.020394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.014110 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Border_Arched.fbx
+  artifactKey: Guid(44df445cedf276240bdc7ce6f35ad5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Border_Arched.fbx using Guid(44df445cedf276240bdc7ce6f35ad5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'b378abae43d7b1cbeeb0bab09cf92852') in 0.015210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001448 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Corner_Arched.fbx
+  artifactKey: Guid(e4178b2a02913d842aedef2eb60d1985) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Custom_Corner_Arched.fbx using Guid(e4178b2a02913d842aedef2eb60d1985) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'ee3728c403095dbdfa6eb3a8b4be238b') in 0.015135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.001550 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Hall_Center.fbx
+  artifactKey: Guid(9e50ad9eaa8639841a02be301a11ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Hall_Center.fbx using Guid(9e50ad9eaa8639841a02be301a11ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'd24b3a1d06c2d6207aab2603a1637c36') in 0.016481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.236880 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Hall_Corner_Inverted.fbx
+  artifactKey: Guid(652440dd64bfc854c83cb08ebb580eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Hall_Corner_Inverted.fbx using Guid(652440dd64bfc854c83cb08ebb580eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'f1a6a44208898185e8e6c028ff9364ed') in 0.019119 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.246739 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Straight_14°.fbx
+  artifactKey: Guid(d0b7d5eee0f16cf49a87a7f520564714) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Dungeon_Straight_14°.fbx using Guid(d0b7d5eee0f16cf49a87a7f520564714) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'dc137aa5e2fd177fe4ef2fd896a474af') in 0.016928 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.432828 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Crossing.fbx
+  artifactKey: Guid(2d7114a56b1dcea4db8f0fbe498cd140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Crossing.fbx using Guid(2d7114a56b1dcea4db8f0fbe498cd140) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '587d088920d5423a9a80bfbc90afc313') in 0.015053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.006790 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Full.fbx
+  artifactKey: Guid(181df0eb8277cec4caa4a9a66c7221de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_Full.fbx using Guid(181df0eb8277cec4caa4a9a66c7221de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '5541475587e8834b072f06c5aecf4b5e') in 0.018492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.014281 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_TCrossing.fbx
+  artifactKey: Guid(d68104bcc3c497440a2cb8a67c7295ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Hallway_TCrossing.fbx using Guid(d68104bcc3c497440a2cb8a67c7295ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fb06540996c0b5a5c82c1fa1a8a152aa') in 0.026111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.046203 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Jail_Door_Right.fbx
+  artifactKey: Guid(7dc17e9f3a67d6e419d0c8c298690c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Jail_Door_Right.fbx using Guid(7dc17e9f3a67d6e419d0c8c298690c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'feb9e666cb607a79d4897ca53ec3ac59') in 0.014094 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.006204 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Pillar.fbx
+  artifactKey: Guid(7eb3c1e408f48cd4597148e13d3f14c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Tiles/Pillar.fbx using Guid(7eb3c1e408f48cd4597148e13d3f14c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '8b50e3208552a1dec6c6b8ebbc6f23d7') in 0.025225 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 35.615692 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Fork.fbx
+  artifactKey: Guid(053045d0926c27f46b1a625fbb577e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Fork.fbx using Guid(053045d0926c27f46b1a625fbb577e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '84da6acb5b08539825a39731663c2110') in 0.017176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.003199 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Ivy_Leaf.fbx
+  artifactKey: Guid(63909009afc9c704591595c2ef356487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Ivy_Leaf.fbx using Guid(63909009afc9c704591595c2ef356487) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '2b7ffed5a49984b9b35a12a33db82f8c') in 0.012738 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.095197 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Jar_Full.fbx
+  artifactKey: Guid(c0469cdae04acd04a848fec5a569effb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Jar_Full.fbx using Guid(c0469cdae04acd04a848fec5a569effb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '50cc6b80a6837ea89e8e2ee82e651abf') in 0.016774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.024877 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Meat.fbx
+  artifactKey: Guid(fd8f5bc11b0289948b50da67132110ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Meat.fbx using Guid(fd8f5bc11b0289948b50da67132110ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: 'fa180577d34a1b6c8e5751f79ac2dba7') in 0.018283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.557071 seconds.
+  path: Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Potion_Green.fbx
+  artifactKey: Guid(7e1b98bbe17b88644aea6625cb61b2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BrokenVector/LowPolyDungeon/Models/Clutter/Potion_Green.fbx using Guid(7e1b98bbe17b88644aea6625cb61b2c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 24 workers.
+ -> (artifact id: '10f29b9cdb983c72551febe5381efbf2') in 0.017346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
 AssetImportWorker is now disconnected from the server
