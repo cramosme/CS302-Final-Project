@@ -9,7 +9,6 @@ public class MainMenu : MonoBehaviour
 
    [SerializeField] UIDocument mainMenuDocument;
    [SerializeField] UIDocument settingsMenuDocument;
-   [SerializeField] UIDocument keyBindMenuDocument;
    [SerializeField] UIDocument graphicsMenuDocument;
    [SerializeField] UIDocument audioMenuDocument;
 
@@ -33,7 +32,6 @@ public class MainMenu : MonoBehaviour
       exitButton.clickable.clicked += () => ExitGame();
 
       settingsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
-      keyBindMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
       graphicsMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
       audioMenuDocument.rootVisualElement.style.display = DisplayStyle.None;
 

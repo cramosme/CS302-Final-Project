@@ -119,8 +119,8 @@ public class playerController : MonoBehaviour
    public void SetSpeed(float newSpeed)
    {
       speed = newSpeed;
-      // audioWalk.pitch = newSpeed/2;
-   }
+       audioWalk.pitch = newSpeed/2;
+    }
 
    public void SetJumpSpeed(float newJumpSpeed)
    {

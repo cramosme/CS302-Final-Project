@@ -126,8 +126,8 @@ public class ButtonClicker : MonoBehaviour
             {
                 door.transform.rotation = Quaternion.Euler(0, 270, 0);
                 AudioManager.instance.PlaySound(AudioManager.instance.winSFX);
-               //  player.SetSpeed(10f);
-               //  player.SetJumpSpeed(10f);
+                player.SetSpeed(20f);
+                player.SetJumpSpeed(20f);
                 playerOrder.Clear();
             }
             else
