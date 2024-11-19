@@ -206,7 +206,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7430}
     - Class: 114
-      Script: {instanceID: 25100}
+      Script: {instanceID: 24718}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1471,4 +1471,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/git/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
+  playerPath: C:/codingApps/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
