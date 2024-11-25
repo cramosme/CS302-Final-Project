@@ -38,7 +38,8 @@ public class ButtonClicker : MonoBehaviour
 
     void Update()
     {
-        if (playerOrder.Count < 7)
+        // Only want to let the player interact when they haven't clicked 7 buttons
+        if (playerOrder.Count < 7) 
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -46,7 +47,6 @@ public class ButtonClicker : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit))
                 {
-                    // objectHit = hit.transform.GameObject;
                     if (hit.collider.gameObject == tridentButton)
                     {
                         tridentButton.transform.position = new Vector3(tridentButton.transform.position.x, tridentButton.transform.position.y - .125f, tridentButton.transform.position.z);
@@ -113,8 +113,7 @@ public class ButtonClicker : MonoBehaviour
         else if (playerOrder.Count == 7)
         {
             int count = 0;
-            // PlayerOrder should be 6 at this point so we can compare
-            //Debug.Log($"The correct order vector size is {correctOrder.Count}");
+            // PlayerOrder should be 7 at this point so we can compare
             for (int i = 0; i < correctOrder.Count; i++)
             {
                 if (playerOrder[i] == correctOrder[i])
@@ -128,10 +127,11 @@ public class ButtonClicker : MonoBehaviour
                 AudioManager.instance.PlaySound(AudioManager.instance.winSFX);
                 player.SetSpeed(20f);
                 player.SetJumpSpeed(20f);
-                playerOrder.Clear();
+                playerOrder.Clear(); // Have to clear the list so that win conditions dont keep activating
             }
             else
             {
+                // Didn't match so we have to revert the buttons to their original positions, and clear list for new attempt
                 foreach (var butt in playerOrder)
                 {
                     butt.transform.position = new Vector3(butt.transform.position.x, butt.transform.position.y + .125f, butt.transform.position.z);
@@ -142,6 +142,3 @@ public class ButtonClicker : MonoBehaviour
         }
     }
 }
-
-// [SerializeField] GameObject tridentButton = buttons.transform.Find("TridentButton")?.[SerializeField] GameObject;
-// tridentButton.GetComponent<Renderer>().material = red;

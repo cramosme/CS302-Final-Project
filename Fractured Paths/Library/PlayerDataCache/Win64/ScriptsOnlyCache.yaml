@@ -174,15 +174,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 684}
     - Class: 114
-      Script: {instanceID: 1652}
+      Script: {instanceID: 1650}
     - Class: 114
-      Script: {instanceID: 1674}
+      Script: {instanceID: 1672}
     - Class: 114
-      Script: {instanceID: 2356}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 2462}
+      Script: {instanceID: 2460}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2886}
     - Class: 114
       Script: {instanceID: 3436}
     - Class: 114
@@ -206,7 +206,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 7430}
     - Class: 114
-      Script: {instanceID: 24718}
+      Script: {instanceID: 88126}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -283,15 +283,15 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 684}
     - Class: 114
-      Script: {instanceID: 1870}
+      Script: {instanceID: 1868}
     - Class: 114
-      Script: {instanceID: 2260}
+      Script: {instanceID: 2258}
     - Class: 114
-      Script: {instanceID: 2356}
+      Script: {instanceID: 2354}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 2682}
     - Class: 114
-      Script: {instanceID: 2888}
+      Script: {instanceID: 2886}
     - Class: 114
       Script: {instanceID: 3436}
     - Class: 114
@@ -333,12 +333,6 @@ ScriptsOnlyBuild:
     - Class: 245
       Script: {instanceID: 0}
   scriptHashData:
-  - hash:
-      serializedVersion: 2
-      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
-    assemblyName: UnityEngine.UI
-    namespaceName: UnityEngine.UI
-    className: ContentSizeFitter
   - hash:
       serializedVersion: 2
       Hash: 55060a7bf226ac385ce19ebd450f199f
@@ -645,6 +639,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnTransformParentChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: d41ab9b5ea92474f9c0a6937a0607ce1
+    assemblyName: UnityEngine.UI
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
   - hash:
       serializedVersion: 2
       Hash: c6369b4cc3be620d6c9300e920bc3d52
@@ -1471,4 +1471,4 @@ ScriptsOnlyBuild:
   scenePathNames:
   - Assets/Scenes/MainMenuScene.unity
   - Assets/Scenes/GameScene.unity
-  playerPath: C:/codingApps/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
+  playerPath: C:/git/CS302-Final-Project/Fractured Paths/build/Fractured Paths.exe
