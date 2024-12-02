@@ -1,5 +1,6 @@
 // Used Kabungus tutorial on YouTube: https://www.youtube.com/watch?v=b7Yf6BFx6js
 // Names: Braeden Watkins and Chris Ramos
+// Program: Used to make the buttons interactable/show outline when buttons being hovered over
 
 using System.Collections;
 using System.Collections.Generic;

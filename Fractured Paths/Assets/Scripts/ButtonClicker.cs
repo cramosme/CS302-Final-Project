@@ -1,4 +1,7 @@
+// File: ButtonCliner.cs
 // Names: Braeden Watkins and Chris Ramos
+// Program: Used to check what buttons have been inputed and compare them to the correct input
+
 
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +12,7 @@ using UnityEngine.Events;
 
 public class ButtonClicker : MonoBehaviour
 {
+    // GameObjects represent all the different buttons
     [SerializeField] GameObject tridentButton;
     [SerializeField] GameObject triangleButton;
     [SerializeField] GameObject splitLButton;
@@ -47,6 +51,8 @@ public class ButtonClicker : MonoBehaviour
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit))
                 {
+                    // if a button is pressed, that GameObject's position is moved into the tablet and that GameObject is pushed onto the List
+                    // all 12 if statments work the exact same for all 12 buttons
                     if (hit.collider.gameObject == tridentButton)
                     {
                         tridentButton.transform.position = new Vector3(tridentButton.transform.position.x, tridentButton.transform.position.y - .125f, tridentButton.transform.position.z);
