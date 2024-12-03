@@ -9,7 +9,7 @@ Individual Task:
   - I specifically created the file called SlidingDoor.cs under Fractured Paths-Assets
 
 Time Log:
-  Total Time: 27 hours and 10 minutes (excluding lab time)
+  Total Time: 28 hours and 30 minutes
     09/23/24 - 10:10am - 11:30am
        - researched puzzle games/downloaded Unity and set up software
     09/23/24 - 12:45 pm - 1:20 pm
